@@ -1,6 +1,6 @@
 # NapierOne: A Modern Mixed File Data Set
 
-![NapierOne Title](img/title.jpg)
+![NapierOne Title](img/NapierOne-title.jpg)
 
 ## Summary
 A modern cybersecurity mixed file data set called ‘NapierOne’ is presented, primarily aimed at, but not limited to, ransomware detection and forensic analysis. NapierOne was designed to address the known deficiency in research reproducibility and improve consistency by facilitating research replication and repeatability. The methodology used in the creation of this data set is also described in detail. The data set was inspired by the Govdocs1 data set and it is intended that ‘NapierOne’ be used as a complement to this original data set.
