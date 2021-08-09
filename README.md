@@ -80,7 +80,7 @@ A graphical representtaion of the dataset sources is shown below:
 ![Data Sources](img/sources3.png)
 
 ### Dataset Details <a name="DatasetDetails"></a>
-![Data Sources](img/napierone-details.jpg)
+![Data Sources](img/napierone-details1.jpg)
 
 
 | File Type  | Size (MB) |  Files #  |  Min Size (KB)  |  Max Size (KB)  |  Average Size (KB)  |  σ (KB)  | Sub classifications | SubSub classifications | A | B | C | D | E | F | G | H | I | J | K |
