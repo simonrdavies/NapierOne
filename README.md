@@ -4,9 +4,9 @@
 # Table of contents
 1. [Summary](#Summary)
 2. [Data Sources](#DataSources)
-    [File Selection](#FileSelection)
-    [File Sources](#FileSources)
-    [Dataset Details](#DatasetDetails)
+    1. [File Selection](#FileSelection)
+    2. [File Sources](#FileSources)
+    3. [Dataset Details](#DatasetDetails)
 3. [Another paragraph](#paragraph2)
 
 ## Summary <a name="Summary"></a>
