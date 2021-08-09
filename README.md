@@ -70,6 +70,6 @@ version/3). This agreement allows for the free distribution of the documents as 
 
 A graphical representtaion of the dataset sources is shown below:
 
-![Data Sources](img/sources3.jpg)
+![Data Sources](img/sources3.png)
 
 
