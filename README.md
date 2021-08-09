@@ -44,12 +44,10 @@ The results for all the sources were then sorted by popularity and aggregated in
 APK,BIN, BMP, CSS, CSv, DLL, DOC, DOCX, DWG, ELF, EPS, EPUB, EXE, GIF, GZIP, HTML, ICS, JS, JPG, JSON. MKV, MP3, MP4, ODS, OXPS, PDF, PNG, PPT, PPTX, PS1, RAR, SVG, TAR, TIF, TXT, WEBP, XLS, XLSX, XML, ZIP, ZLIB, 7Zip
 
 
-| Header 1     | Header 2    | Header 3      |
-----------------------------------------------
-| Row 1 Col 1  | Row 1 Col 2 | Row 1 Col 3   |
-|:Left-aligned |:Centered   :| Right-aligned:|
-|              | ← Blank   → |               |
-| Row 4 Col 1  | Row 4 Col 2 | Row 4 Col 3   |
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
 
 
 
