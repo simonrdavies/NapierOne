@@ -43,6 +43,7 @@ support.google.com/webmasters/answer/35287?hl=en), their justification for doing
 The results for all the sources were then sorted by popularity and aggregated into a list of approximately 40 file types. To encourage consensus, the file types needed to appear in at least two lists before they were considered in the final results. The following list describes which file types were identified as being popular
 APK,BIN, BMP, CSS, CSv, DLL, DOC, DOCX, DWG, ELF, EPS, EPUB, EXE, GIF, GZIP, HTML, ICS, JS, JPG, JSON. MKV, MP3, MP4, ODS, OXPS, PDF, PNG, PPT, PPTX, PS1, RAR, SVG, TAR, TIF, TXT, WEBP, XLS, XLSX, XML, ZIP, ZLIB, 7Zip
 
+
 | Header 1     | Header 2    | Header 3      |
 ----------------------------------------------
 | Row 1 Col 1  | Row 1 Col 2 | Row 1 Col 3   |
