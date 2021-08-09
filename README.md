@@ -3,8 +3,8 @@
 ![NapierOne Title](img/NapierOne-title.jpg)
 # Table of contents
 1. [Summary](#Summary)
-2. [Some paragraph](#paragraph1)
-    1. [Sub paragraph](#subparagraph1)
+2. [Data Sources](#DataSources)
+    1. [File Selection](#FileSelection)
 3. [Another paragraph](#paragraph2)
 
 ## Summary <a name="Summary"></a>
@@ -12,8 +12,8 @@ A modern cybersecurity mixed file data set called ‘NapierOne’ is presented, 
 
 An investigation was performed with the goal of determining the common files types currently in use. No specific research was found that explicitly provided this information, so an alternative consensus approach was employed. This involved combining the findings from multiple sources of file type usage into an overall ranked list. After which 5,000 real-world example files were gathered, and a specific data subset created, for each of the common file types identified. In some circumstances, multiple data subsets were created for a specific file type, each subset representing a specific characteristic for that file type. For example, there are multiple data subsets for the ZIP file type with each subset containing examples of a specific compression method. Ransomware execution tends to produce files that have high entropy, so examples of file types that naturally have this attribute are also present. The resulting entire data set comprises of more than 90 separate data subsets divided between 44 distinct file types, resulting in over 450,000 unique files in total.
 
-## Data Sources
-### File Selection
+## Data Sources<a name="DataSources"></a>
+### File Selection<a name="FileSelection"></a>
 An important aspect of building a representative data set relates to file type usage and popularity. It is known that Google gathers statistics on file types while it performs its website indexing searches. However, the statistics are only gathered on a limited number of file types (https://
 support.google.com/webmasters/answer/35287?hl=en http://
 googlegsa.github.io/adaptor/index.html). 
