@@ -44,7 +44,7 @@ The results for all the sources were then sorted by popularity and aggregated in
 APK,BIN, BMP, CSS, CSv, DLL, DOC, DOCX, DWG, ELF, EPS, EPUB, EXE, GIF, GZIP, HTML, ICS, JS, JPG, JSON. MKV, MP3, MP4, ODS, OXPS, PDF, PNG, PPT, PPTX, PS1, RAR, SVG, TAR, TIF, TXT, WEBP, XLS, XLSX, XML, ZIP, ZLIB, 7Zip
 
 
-| - First Header  | - Second Header | - First Header  | - Second Header | - First Header  | - Second Header |
+| &nbsp; | - Second Header | - First Header  | - Second Header | - First Header  | - Second Header |
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  | Content Cell  |
 
