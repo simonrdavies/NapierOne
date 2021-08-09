@@ -4,7 +4,9 @@
 # Table of contents
 1. [Summary](#Summary)
 2. [Data Sources](#DataSources)
-    1. [File Selection](#FileSelection)
+    [File Selection](#FileSelection)
+    [File Sources](#FileSources)
+    [Dataset Details](#DatasetDetails)
 3. [Another paragraph](#paragraph2)
 
 ## Summary <a name="Summary"></a>
@@ -63,7 +65,7 @@ The results for all the sources were then sorted by popularity and aggregated in
 
 
 
-### Sources ###
+### File Sources <a name="FileSources"></a>
 The contents of the ***NapierOne*** new data set were generated in the following ways:
 - Examples of files using the most commonly used document types such as DOC, DOCX, PDF, PPT, PPTX, XLS, and XLS  were be gathered from the UK government domain, ***gov.uk***. Files collected from this domain are covered by the 'Open Government License agreement for Public Sector Information' (http://www.nationalarchives.gov.uk/doc/open-government-licence/
 version/3). This agreement allows for the free distribution of the documents as long as they are accompanied by the correct attribution.
@@ -76,6 +78,8 @@ version/3). This agreement allows for the free distribution of the documents as 
 A graphical representtaion of the dataset sources is shown below:
 
 ![Data Sources](img/sources3.png)
+
+### Dataset Details <a name="DatasetDetails"></a>
 ![Data Sources](img/napierone-details.jpg)
 
 
