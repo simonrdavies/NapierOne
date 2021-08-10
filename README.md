@@ -79,8 +79,8 @@ A graphical representtaion of the dataset sources is shown below:
 
 ![Data Sources](img/sources3.png)
 
-##Dataset Details <a name="DatasetStructure"></a>
-##File Name Convention <a name="FileNameConvention">
+# Dataset Details <a name="DatasetStructure"></a>
+### File Name Convention <a name="FileNameConvention">
 To provide consistency across the entire data set, a standardised naming convention was used. Reasons for renaming the files to follow this convention were: firstly the file names reflect to some extent the content and structure of the file itself and so are self-documenting. The renaming processes provides a small degree of anonymisation and finally, files containing related content are linked via their sequence numbers. A description of the file naming convention used is shown in Figure 1. The inclusion of the sequence number facilitates the possibility of being able to cross-reference certain related files across data subsets, such as in tracing image files or archives that use the same underlying content. The file's extension value appears as part of the file name, as well as the file's actual extension. It is in both places because in some cases, such as when a file is encrypted by ransomware, the actual extension is modified. In these circumstances, the file's original extension can still be seen from the file name. 
 
 ![Figure 1](img/fig1.jpg)
