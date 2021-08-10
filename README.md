@@ -88,6 +88,7 @@ To provide consistency across the entire data set, a standardised naming convent
 For example, for the first file in the DOCX data subset that has been password-protected, the name would be the value shown in Figure 2. Examples of how the sequence number is used to link related files are shown in Tables 2 and 3. 
     
 ![Table 2](img/table2.jpg)
+    
 ![Table 3](img/table3.jpg)
     
 The authors retain the ability to determine each file's original file name if required.
