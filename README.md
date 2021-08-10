@@ -85,6 +85,8 @@ To provide consistency across the entire data set, a standardised naming convent
 
 ![Figure 1](img/fig1.jpg)
 
+![Figure 1](img/fig2.jpg)
+    
 For example, for the first file in the DOCX data subset that has been password-protected, the name would be the value shown in Figure 2. Examples of how the sequence number is used to link related files are shown in Tables 2 and 3. 
     
 ![Table 2](img/table2.jpg)
@@ -93,7 +95,7 @@ For example, for the first file in the DOCX data subset that has been password-p
     
 The authors retain the ability to determine each file's original file name if required.
 When renaming the files, a record is kept of the mapping between the original and new file names to allow the original name to be determined if required.
-![Figure 1](img/fig2.jpg)
+
 
 The files within the data set are organised by file type into a directory hierarchy. On the top level are the main file types, such as DOC, PPTX, ZIP, and so on. Below these main type classification directories are one or more subdirectories, one for each type of file format variation. For example, a BZIP directory containing files created using the bzip compression method of the ZIP program, would be found under the main zip directory. The directory structure of the data set can be deduced from Table~\ref{tab:data-set-details}. Contained within each directory that holds data, is a description file in both HTML and PDF formats, which describes the data held within that data subset. The description file includes amongst other things: a description of the data files; where the data was sourced; the licence details; and contact information.
 
