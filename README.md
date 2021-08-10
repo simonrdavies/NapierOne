@@ -85,7 +85,12 @@ To provide consistency across the entire data set, a standardised naming convent
 
 ![Figure 1](img/fig1.jpg)
 
-For example, for the first file in the DOCX data subset that has been password-protected, the name would be the value shown in Figure 2. Examples of how the sequence number is used to link related files are shown in Tables~\ref{tab:image-naming-relationship} and ~\ref{tab:similar-naming-archive}. The authors retain the ability to determine each file's original file name if required.
+For example, for the first file in the DOCX data subset that has been password-protected, the name would be the value shown in Figure 2. Examples of how the sequence number is used to link related files are shown in Tables 2 and 3. 
+    
+    ![Table 2](img/table2.jpg)
+    ![Table 3](img/table3.jpg)
+    
+The authors retain the ability to determine each file's original file name if required.
 When renaming the files, a record is kept of the mapping between the original and new file names to allow the original name to be determined if required.
 ![Figure 1](img/fig2.jpg)
 
