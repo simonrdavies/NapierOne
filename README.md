@@ -6,8 +6,7 @@
 2. [Data Sources](#DataSources)
     1. [File Selection](#FileSelection)
     2. [File Sources](#FileSources)
-    3. [Dataset Details](#DatasetDetails)
-3. [Another paragraph](#paragraph2)
+3. [Dataset Structure](#DatasetStructure)
 
 ## Summary <a name="Summary"></a>
 A modern cybersecurity mixed file data set called ‘NapierOne’ is presented, primarily aimed at, but not limited to, ransomware detection and forensic analysis. NapierOne was designed to address the known deficiency in research reproducibility and improve consistency by facilitating research replication and repeatability. The methodology used in the creation of this data set is also described in detail. The data set was inspired by the Govdocs1 data set and it is intended that ‘NapierOne’ be used as a complement to this original data set.
@@ -79,7 +78,10 @@ A graphical representtaion of the dataset sources is shown below:
 
 ![Data Sources](img/sources3.png)
 
-### Dataset Details <a name="DatasetDetails"></a>
+### Dataset Details <a name="DatasetStructure"></a>
+To provide consistency across the entire data set, a standardised naming convention was used. Reasons for renaming the files to follow this convention were: firstly the file names reflect to some extent the content and structure of the file itself and so are self-documenting. The renaming processes provides a small degree of anonymisation and finally, files containing related content are linked via their sequence numbers. A description of the file naming convention used is shown in Figure 1. The inclusion of the sequence number facilitates the possibility of being able to cross-reference certain related files across data subsets, such as in tracing image files or archives that use the same underlying content. The file's extension value appears as part of the file name, as well as the file's actual extension. It is in both places because in some cases, such as when a file is encrypted by ransomware, the actual extension is modified. In these circumstances, the file's original extension can still be seen from the file name. 
+![Figure 1](img/fig1.jpg)
+
 ![Data Sources](img/napierone-details1.jpg)
 
 
