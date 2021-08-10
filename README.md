@@ -44,8 +44,7 @@ support.google.com/webmasters/answer/35287?hl=en), their justification for doing
 
 ***J - OS Installation*** File type count statistics were gathered from clean windows installations (XP 2003 SP1, Vista 2006 and Windows 10 20H2) as well as four clean 64Bit Linux installations (MX Linux 19.4, Debian 5.9.1, Ubuntu 18.04.1, and Ubuntu 20.10).
 
-***K - Govdocs1*** Inclusion of the file types in the original Govdocs1 data set (https:
-//digitalcorpora.org/corpora/files) were also taken into consideration when deciding if they should appear in this data set. However, the actual files being sourced from elsewhere.
+***K - Govdocs1*** Inclusion of the file types in the original Govdocs1 data set (https://digitalcorpora.org/corpora/files) were also taken into consideration when deciding if they should appear in this data set. However, the actual files being sourced from elsewhere.
 
 The results for all the sources were then sorted by popularity and aggregated into a list of approximately 40 file types. To encourage consensus, the file types needed to appear in at least two lists before they were considered in the final results. The following list describes the file types that were identified as being popular using the infoirmation gathered from the sources above.
 
