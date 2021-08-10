@@ -80,7 +80,15 @@ A graphical representtaion of the dataset sources is shown below:
 
 ### Dataset Details <a name="DatasetStructure"></a>
 To provide consistency across the entire data set, a standardised naming convention was used. Reasons for renaming the files to follow this convention were: firstly the file names reflect to some extent the content and structure of the file itself and so are self-documenting. The renaming processes provides a small degree of anonymisation and finally, files containing related content are linked via their sequence numbers. A description of the file naming convention used is shown in Figure 1. The inclusion of the sequence number facilitates the possibility of being able to cross-reference certain related files across data subsets, such as in tracing image files or archives that use the same underlying content. The file's extension value appears as part of the file name, as well as the file's actual extension. It is in both places because in some cases, such as when a file is encrypted by ransomware, the actual extension is modified. In these circumstances, the file's original extension can still be seen from the file name. 
+
 ![Figure 1](img/fig1.jpg)
+
+For example, for the first file in the DOCX data subset that has been password-protected, the name would be the value shown in Figure~\ref{fig:filename-example}. Examples of how the sequence number is used to link related files are shown in Tables~\ref{tab:image-naming-relationship} and ~\ref{tab:similar-naming-archive}. The authors retain the ability to determine each file's original file name if required.
+When renaming the files, a record is kept of the mapping between the original and new file names to allow the original name to be determined if required.
+![Figure 1](img/fig2.jpg)
+
+The files within the data set are organised by file type into a directory hierarchy. On the top level are the main file types, such as DOC, PPTX, ZIP, and so on. Below these main type classification directories are one or more subdirectories, one for each type of file format variation. For example, a BZIP directory containing files created using the bzip compression method of the ZIP program, would be found under the main zip directory. The directory structure of the data set can be deduced from Table~\ref{tab:data-set-details}. Contained within each directory that holds data, is a description file in both HTML and PDF formats, which describes the data held within that data subset. The description file includes amongst other things: a description of the data files; where the data was sourced; the licence details; and contact information.
+
 
 ![Data Sources](img/napierone-details1.jpg)
 
