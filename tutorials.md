@@ -6,9 +6,9 @@
 4. [Image encoding analysis](#ImageEncodingAnalysis)
 
 # Compression analysis <a name="CompressionAnalysis"></a>
-The following data sub sets present in the NapiertOne data set, are all examples of archives: 7Zip, GZIP, TAR, RAR, ZIP and ZLIB.
+The following data subsets, present in the NapiertOne data set, are all examples of archive file formats: 7Zip, GZIP, TAR, RAR, ZIP and ZLIB.
 
-All these archive data subsets were created from the same source folders. A consequence of this being that content of each archive data subset are related. The relation is provided by the sequence number of the data subset file. For example,  the files in the data subset of 7Zip, GZIP,TAR, RAR, ZIP and ZLIB that have the sequence number 0001 were all created from the same source files, the same goes for sequence number 0002, 0003... and so on.
+All these archive data subsets were created from the same source folders. A consequence of this being that content of each archive data subset are related. The relation between these subsets can been determined via the sequence number specified in the data subset file name. For example,  the files in the data subset of 7Zip, GZIP,TAR, RAR, ZIP and ZLIB that have the sequence number 0001 were all created from the same source files, the same goes for sequence number 0002, 0003... and so on.
 
 Due to this relationship, it is possible to compare the different archiving methods and efficiencies by comparing archives files from different archive data subsets. The archives are linked using the sequence number.
 
