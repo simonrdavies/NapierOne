@@ -3,7 +3,7 @@
 1. [Compression analysis](#CompressionAnalysis)
 2. [Encryption analysis](#EncryptionAnalysis)
 3. [Password protection analysis](#PasswordProtectionAnalysis)
-4. [Image encoding analysis](#ImageEncodingAnalysis>
+4. [Image encoding analysis](#ImageEncodingAnalysis)
 
 # Compression analysis <a name="CompressionAnalysis"></a>
 The following data sub sets, of the NapiertOne data set, are all examples of archives: 7Zip, GZIP, TAR, RAR, ZIP and ZLIB.
