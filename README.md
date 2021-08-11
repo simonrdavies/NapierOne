@@ -93,11 +93,10 @@ Examples of how the sequence number is used to link related files are shown in T
     
 ![Table 3](img/table3.jpg)
     
-The authors retain the ability to determine each file's original file name if required.
-When renaming the files, a record is kept of the mapping between the original and new file names to allow the original name to be determined if required.
+When renaming the files, a record was kept of the mapping between the original and new file names to allow the original name to be determined if required.
 
 
-The files within the data set are organised by file type into a directory hierarchy. On the top level are the main file types, such as DOC, PPTX, ZIP, and so on. Below these main type classification directories are one or more subdirectories, one for each type of file format variation. For example, a BZIP directory containing files created using the bzip compression method of the ZIP program, would be found under the main zip directory. The directory structure of the data set can be deduced from Table~\ref{tab:data-set-details}. Contained within each directory that holds data, is a description file in both HTML and PDF formats, which describes the data held within that data subset. The description file includes amongst other things: a description of the data files, where the data was sourced, the licence details and contact information.
+The files within the data set are organised by file type into a directory hierarchy. On the top level are the main file types, such as DOC, PPTX, ZIP, and so on. Below these main type classification directories are one or more subdirectories, one for each type of file format variation. For example, a BZIP directory containing files created using the bzip compression method of the ZIP program, would be found under the main zip directory. The directory structure of the data set can be deduced from Figure 3 and can also be seen here [Dataset Structure](./DatasetStructure.txt). Contained within each directory that holds data, is a description file in both HTML and PDF formats, which describes the data held within that data subset. The description file includes amongst other things: a description of the data files, where the data was sourced, the licence details and contact information.
 
 
 ![Data Sources \label{datasources}](img/napierone-details1.jpg)    
