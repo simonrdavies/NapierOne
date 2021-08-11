@@ -45,8 +45,23 @@ Typical examples of files that are commonly attacked by ransomware, were exposed
 - Ryuk
 - Sodinokibi
 
+This resulted in the generation of specific data subsets for each of these ransomware starins. Each data subset contains versions of files encrypted using the specific ransomware strain. Again the sequence number, combined with the file type, is used to link these various files together
+
+So for example , considering the Microsoft Office word document NapierOne\DOC\DOC\0001-doc.doc, the following are related
+
+|File Name | Path              |  Comment|
+|--------- | --------          | ------|
+|0001-doc.doc|NapierOne\DOC\DOC| Original file|
+|0001-doc.doc.id-0481FA80.[paymentbtc@firemail.cc].cmb |NapierOneEXTRA\RANSOMWARE\DHARMA    | File encrypted using the DHARMA ransomware|
+|0001-doc.doc.OVF1GDZ                                  |NapierOneEXTRA\RANSOMWARE\MAZE      | File encrypted using the MAZE ransomware|
+|0001-doc.doc.c924ca                                   |NapierOneEXTRA\RANSOMWARE\NETWALKER | File encrypted using the NETWALKER ransomware|
+|0001-doc.doc                                          |NapierOneEXTRA\RANSOMWARE\NOTPETYA  | File encrypted using the NOTPETYA ransomware|
+|0001-doc.doc.id[0481FA80-1096].[lockhelp@qq.com].acute|NapierOneEXTRA\RANSOMWARE\PHOBOS    | File encrypted using the PHOBOS ransomware|
+|0001-doc.doc.RYK                                      |NapierOneEXTRA\RANSOMWARE\RYUK      | File encrypted using the RYUK ransomware|
+|0001-doc.doc.wiyn0sx9jt                               |NapierOneEXTRA\RANSOMWARE\SODINOKIBI| File encrypted using the SODINOKIBI ransomware|
 
 
+0001-doc.doc.OVF1GDZ
 # Password protection analysis <a name="PasswordProtectionAnalysis"></a>
 Microsoft Office format files present in the NapierOne data set include the following formats: DOC, DOCX, PPT, PPTX, XLS and XLSX
 Copies of these files were then saved using the password protection functionality provided by Microsift Office tools. The password being used was ***NapierOne***
