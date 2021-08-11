@@ -101,4 +101,9 @@ A graphical representation of how the individual image data subsets are arranged
 
 ![Image Types](img/graphics.jpg)
 
-Data set properties such as file size, entropy, file contents and compression efficiency can then be analysed for each of the archiving techniques.
+Data set properties such as:
+- file size
+- entropy
+- file contents
+- compression/encoding efficiency 
+can then be analysed for each of the archiving techniques.
