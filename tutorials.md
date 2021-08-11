@@ -71,7 +71,7 @@ As we have access to the original and the corresponding encrypted files, some ex
 
 # Password protection analysis <a name="PasswordProtectionAnalysis"></a>
 Microsoft Office format files present in the NapierOne data set include the following formats: DOC, DOCX, PPT, PPTX, XLS and XLSX
-Copies of these files were then saved using the password protection functionality provided by Microsoft Office tools. The password being used was ***NapierOne***
+Copies of these files were then saved using the password protection functionality provided by Microsoft Office tools. The password being used was ***napierone***
 Again these files were linked using the sequence number.
 
 So for example:
