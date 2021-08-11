@@ -139,7 +139,8 @@ When accessing the website some simple registration may be required. This was im
     
 
     
-A full listing of the dataset structure can be found [Dataset Structure](./DatasetStructure.txt)
+A full listing of the dataset structure can be found [Dataset Structure](./DatasetStructure.txt), the subd
+A conceptual view of the entore data set can be seen here [Conceptual Dataset structire](conceptual-file-tree-structure.jpg)
     
 
 ## Access <a name="Access">
