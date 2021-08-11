@@ -10,27 +10,27 @@ The following data subsets, present in the NapiertOne data set, are all examples
 
 All these archive data subsets were created from the same source folders. A consequence of this being that content of each archive data subset are related. The relation between these subsets can been determined via the sequence number specified in the data subset file name. For example,  the files in the data subset of 7Zip, GZIP,TAR, RAR, ZIP and ZLIB that have the sequence number 0001 were all created from the same source files, the same goes for sequence number 0002, 0003... and so on.
 
-Due to this relationship, it is possible to compare the different archiving methods and efficiencies by comparing archives files from different archive data subsets. The archives are linked using the sequence number.
+Due to this relationship, it is possible to compare the output from different archiving techniques by comparing archives files from different archive data subsets. As mentioned previously,  archives are linked using the sequence number.
 
 For example the following data set files all contain archives of the same files, but were created using the different archiving methods.
 |File Name | Data Set | Type | Comment|
 |--------- | -------- | ---- | ------|
-|0001-7z-bzip2.7Z         | BZIP2             | 7Zip| Created using the 7Zip tool|
-|0001-7z-encrypted.7Z     | Password protected| 7Zip| Created using the 7Zip tool|
-|0001-7z-highcompress.7Z  | High Compression  | 7Zip| Created using the 7Zip tool|
-|0001-7z-lzma.7Z          | LZMA compression  | 7Zip| Created using the 7Zip tool|
-|0001-7z-LZMA2.7Z         | LZMA2 compression | 7Zip| Created using the 7Zip tool|
-|0001-7z-ppmd.7Z          | PPMD compression  | 7Zip| Created using the 7Zip tool|
+|0001-7z-bzip2.7Z         | BZIP2             | 7Zip| Created using the 7Zip tool, using BZIP2 compression|
+|0001-7z-encrypted.7Z     | Password protected| 7Zip| Created using the 7Zip tool, encrypted using a password|
+|0001-7z-highcompress.7Z  | High Compression  | 7Zip| Created using the 7Zip tool with high compression settings|
+|0001-7z-lzma.7Z          | LZMA compression  | 7Zip| Created using the 7Zip tool, using LZMA compression |
+|0001-7z-LZMA2.7Z         | LZMA2 compression | 7Zip| Created using the 7Zip tool, using LZMA2 compression |
+|0001-7z-ppmd.7Z          | PPMD compression  | 7Zip| Created using the 7Zip tool, using PPMD compression |
 |0001-gz.gz               | Gzip compression  | GZip| Created using the default configuration of Gzip tool|
 |0001-rar.rar             | RAR archive       | RAR | Created using the default configuration of RAR. Archive but no compression|
 |0001-tar.tar             | TAR archive       | TAR | Created using the default configuration of TAR. Archive but no compression|
-|0001-zip-bzip2.zip       | BZIP2             | Zip | Created using the Zip tool|
-|0001-zip-deflate.zip     | DEFLATE           | Zip | Created using the Zip tool|
-|0001-zip-encrypted.zip   | Password protected| Zip | Created using the Zip tool|
-|0001-zip-highcompress.zip| High Compression  | Zip | Created using the Zip tool|
-|0001-zip-lzma.zip        | LZMA compression  | Zip | Created using the Zip tool|
-|0001-zip-ppmd.zip        | PPMD compression  | Zip | Created using the Zip tool|
-|0001-zlib.zlib           | Zlib              | Zlib | Created using the ZLIB tool|
+|0001-zip-bzip2.zip       | BZIP2             | Zip | Created using the Zip tool, using BZIP2 compression|
+|0001-zip-deflate.zip     | DEFLATE           | Zip | Created using the Zip tool, using DEFLATE compression|
+|0001-zip-encrypted.zip   | Password protected| Zip | Created using the Zip tool, encrypted using a password|
+|0001-zip-highcompress.zip| High Compression  | Zip | Created using the Zip tool with high compression settings|
+|0001-zip-lzma.zip        | LZMA compression  | Zip | Created using the Zip tool, using LZMA compression |
+|0001-zip-ppmd.zip        | PPMD compression  | Zip | Created using the Zip tool, using PPMD compression |
+|0001-zlib.zlib           | Zlib              | Zlib | Created using the ZLIB tool and default values|
 
 Data set properties such as file size, entropy, file contents and compression efficiency can then be analysed for each of the archiving techniques.
 
