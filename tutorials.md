@@ -8,7 +8,7 @@
 # Compression analysis <a name="CompressionAnalysis"></a>
 The following data sub sets present in the NapiertOne data set, are all examples of archives: 7Zip, GZIP, TAR, RAR, ZIP and ZLIB.
 
-All these archive data subsets were created from the same source folders. A consquence of this being that content of each archive data subset are releated. The relation is provided by the sequence number of the data subset file. For eample the files in the data subset of 7Zip, GZIP,TAR, RAR, ZIP and ZLIB that have the sequence number 0001 were all created from the same source files, the same goes for sequence number 0002, 0003... and so on.
+All these archive data subsets were created from the same source folders. A consequence of this being that content of each archive data subset are related. The relation is provided by the sequence number of the data subset file. For example,  the files in the data subset of 7Zip, GZIP,TAR, RAR, ZIP and ZLIB that have the sequence number 0001 were all created from the same source files, the same goes for sequence number 0002, 0003... and so on.
 
 Due to this relationship, it is possible to compare the different archiving methods and efficiencies by comparing archives files from different archive data subsets. The archives are linked using the sequence number.
 
@@ -32,7 +32,7 @@ For example the following data set files all contain archives of the same files,
 |0001-zip-ppmd.zip        | PPMD compression  | Zip | Created using the Zip tool|
 |0001-zlib.zlib           | Zlib              | Zlib | Created using the ZLIB tool|
 
-Data set properies such as file size, entropy, file contents and compression efficiency can then be analysed for each of the archiving techniques.
+Data set properties such as file size, entropy, file contents and compression efficiency can then be analysed for each of the archiving techniques.
 
 
 # Encryption analysis <a name="EncryptionAnalysis"></a>
@@ -45,9 +45,9 @@ Typical examples of files that are commonly attacked by ransomware, were exposed
 - Ryuk
 - Sodinokibi
 
-This resulted in the generation of specific data subsets for each of these ransomware starins. Each data subset contains versions of files encrypted using the specific ransomware strain. Again the sequence number, combined with the file type, is used to link these various files together
+This resulted in the generation of specific data subsets for each of these ransomware strains. Each data subset contains versions of files encrypted using the specific ransomware strain. Again the sequence number, combined with the file type, is used to link these various files together
 
-So for example , considering the Microsoft Office word document NapierOne\DOC\DOC\0001-doc.doc, the following are related
+So for example , considering the Microsoft Office word document NapierOne\DOC\DOC\0001-doc.doc, the following files are related
 
 |File Name | Path              |  Comment|
 |--------- | --------          | ------|
@@ -60,14 +60,21 @@ So for example , considering the Microsoft Office word document NapierOne\DOC\DO
 |0001-doc.doc.RYK                                      |NapierOneEXTRA\RANSOMWARE\RYUK      | File encrypted using the RYUK ransomware|
 |0001-doc.doc.wiyn0sx9jt                               |NapierOneEXTRA\RANSOMWARE\SODINOKIBI| File encrypted using the SODINOKIBI ransomware|
 
+As we have access to the original file and the subsequent encrypted files some examples of analysis could be:
+- Content comparison between original and encrypted files
+- Format and structure analysis of the encrypted file
+- Possible key determination from the encrypted file
+- Possible decryption of encrypted file
 
-0001-doc.doc.OVF1GDZ
+
+
+
 # Password protection analysis <a name="PasswordProtectionAnalysis"></a>
 Microsoft Office format files present in the NapierOne data set include the following formats: DOC, DOCX, PPT, PPTX, XLS and XLSX
-Copies of these files were then saved using the password protection functionality provided by Microsift Office tools. The password being used was ***NapierOne***
+Copies of these files were then saved using the password protection functionality provided by Microsoft Office tools. The password being used was ***NapierOne***
 Again these files were linked using the sequence number.
 
-So for eample:
+So for example:
 - the file NapierOne\DOC\DOC\0001-doc.doc has the same content as the file NapierOne\DOC-PASSWORD\0001-doc-password.doc, except it is password protected (encrypted)
 - the file NapierOne\DOCX\DOCX\0001-docx.docx has the same content as the file NapierOne\DOCX-PASSWORD\0001-docx-password.docx, except it is password protected (encrypted)
 - the file NapierOne\PPT\PPT\0001-ppt.ppt has the same content as the file NapierOne\PPT-PASSWORD\0001-ppt-password.ppt, except it is password protected (encrypted)
@@ -84,7 +91,7 @@ These data subsets could then be analysed and compared as we we have examples of
 # Image encoding analysis <a name="ImageEncodingAnalysis"></a>
 The following data sub sets present in the NapiertOne data set, are all examples of image formats: BMP,  DWG, EPS, GIF, JPG, PNG, SVG, TIF and WEBP.
 
-All these archive data subsets were created from the same source TIF images. A consquence of this being that content of each image data subset are releated. The relation is provided by the sequence number of the data subset file. For eample the files in the data subset of BMP,  DWG, EPS, GIF, JPG, PNG, SVG, TIF and WEBP that have the sequence number 0001 , whn viewed will all show basically the same image and were aree gnerated from the the same base TIF image, the same goes for sequence number 0002, 0003... and so on.
+All these archive data subsets were created from the same source TIF images. A consequence of this being that content of each image data subset are related. The relation is provided by the sequence number of the data subset file. For example the files in the data subset of BMP,  DWG, EPS, GIF, JPG, PNG, SVG, TIF and WEBP that have the sequence number 0001 , when viewed will all show basically the same image and were are generated from the same base TIF image, the same goes for sequence number 0002, 0003... and so on.
 
 Due to this relationship, it is possible to compare the different image encoding techniques by comparing example image files from different image data subsets. The archives are linked using the sequence number. For example using the sequence number 0001 the following related image files can be linked.
 
@@ -94,4 +101,4 @@ A graphical representation of how the individual image data subsets are arranged
 
 ![Image Types](img/graphics.jpg)
 
-Data set properies such as file size, entropy, file contents and compression efficiency can then be analysed for each of the archiving techniques.
+Data set properties such as file size, entropy, file contents and compression efficiency can then be analysed for each of the archiving techniques.
