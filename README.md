@@ -8,7 +8,8 @@
     2. [File Sources](#FileSources)
 3. [Dataset Structure](#DatasetStructure)
     1. [File Name Convention](#FileNameConvention)
-4. [Tutorials](./tutorials.md)
+5. [Documentation](#Documentation)
+6. [Tutorials](./tutorials.md)
 
 ## Summary <a name="Summary"></a>
 A modern cybersecurity mixed file data set called ‘NapierOne’ is presented, primarily aimed at, but not limited to, ransomware detection and forensic analysis. NapierOne was designed to address the known deficiency in research reproducibility and improve consistency by facilitating research replication and repeatability. The methodology used in the creation of this data set is also described in detail. The data set was inspired by the Govdocs1 data set and it is intended that ‘NapierOne’ be used as a complement to this original data set.
@@ -107,8 +108,11 @@ The files within the data set are organised by file type into a directory hierar
     
     
     
-# Tutorials <a name="Tutorials"></a>
-[Tutorials](./tutorials.md)
+# Documentation <a name="Documentation"></a>
+Documentation for this data set exists in three main areas
+1. The github repository https://github.com/simonrdavies/NapierOne/edit/main/README.md
+2. The journal paper published in xxxxx
+3. Each data subset has associated with it, its own specific PDF documentation. Contained within this document are specific details relating to that specific data subset. This includes a description of the data set, how the dat awithin this specific data set was generated/gathered, contact information, license and attibution information
 
 
 
