@@ -100,7 +100,7 @@ The authors retain the ability to determine each file's original file name if re
 When renaming the files, a record is kept of the mapping between the original and new file names to allow the original name to be determined if required.
 
 
-The files within the data set are organised by file type into a directory hierarchy. On the top level are the main file types, such as DOC, PPTX, ZIP, and so on. Below these main type classification directories are one or more subdirectories, one for each type of file format variation. For example, a BZIP directory containing files created using the bzip compression method of the ZIP program, would be found under the main zip directory. The directory structure of the data set can be deduced from Table~\ref{tab:data-set-details}. Contained within each directory that holds data, is a description file in both HTML and PDF formats, which describes the data held within that data subset. The description file includes amongst other things: a description of the data files; where the data was sourced; the licence details; and contact information.
+The files within the data set are organised by file type into a directory hierarchy. On the top level are the main file types, such as DOC, PPTX, ZIP, and so on. Below these main type classification directories are one or more subdirectories, one for each type of file format variation. For example, a BZIP directory containing files created using the bzip compression method of the ZIP program, would be found under the main zip directory. The directory structure of the data set can be deduced from Table~\ref{tab:data-set-details}. Contained within each directory that holds data, is a description file in both HTML and PDF formats, which describes the data held within that data subset. The description file includes amongst other things: a description of the data files, where the data was sourced, the licence details and contact information.
 
 
 ![Data Sources](img/napierone-details1.jpg)
@@ -119,7 +119,7 @@ Again leveraging the sequence number, the target file and ransomware encrypted f
 
 ![Data Sources](img/sources3.png)
     
-As long as the attribution and license stipulations are followed, access to this ***NapierOne*** data set for research purposes is free and unrestricted. For access to the data set, visit \textbf{www.napierone.com} or alternatively contact the authors of this paper.
+As long as the attribution and license stipulations are followed, access to this ***NapierOne*** data set for research purposes is free and unrestricted. For access to the data set, visit www.napierone.com or alternatively contact the authors of this page.
 
 It can be seen from that table xxx that some data subsets are extremely large, with the total uncompressed size of the entire data set is approaching 2TB. Due to its size, the data set has been broken down into smaller parts allowing the possibility to only access portions of the data set.
 The final data set is broken down as follows.
