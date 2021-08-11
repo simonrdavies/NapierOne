@@ -123,15 +123,15 @@ As long as the attribution and license stipulations are followed, access to this
 
 It can be seen from that table xxx that some data subsets are extremely large, with the total uncompressed size of the entire data set is approaching 2TB. Due to its size, the data set has been broken down into smaller parts allowing the possibility to only access portions of the data set.
 The final data set is broken down as follows.
-* Each data subset is available in three separate archives.
-- ***Tiny*** This archive contains 100 examples of the specific file type. The actual files contained within this archive are the files of this type that have sequence numbers between 0001 and 0100.
-- ***Small*** This archive contains 1,000 examples of the specific file type. The actual files contained within this archive are the files of this type that have sequence numbers between 0001 and 1,000.
-- ***Total*** This archive contains all the examples of the specific file type present in the \emph{NapierOne} data set.
+- Each data subset is available in three separate archives.
+    - ***Tiny*** This archive contains 100 examples of the specific file type. The actual files contained within this archive are the files of this type that have sequence numbers between 0001 and 0100.
+    - ***Small*** This archive contains 1,000 examples of the specific file type. The actual files contained within this archive are the files of this type that have sequence numbers between 0001 and 1,000.
+    - ***Total*** This archive contains all the examples of the specific file type present in the \emph{NapierOne} data set.
  
-* These individual archives have also been combined into three larger archives as described below:
-- ***NapierOne-Tiny*** This archive contains a copy of all the \emph{Tiny} archives mentioned in the bullet point above.
-- ***NapierOne-Small*** This archive contains a copy of all the \emph{Small} archives mentioned in the bullet point above.
-- ***NapierOne-Total*** This archive contains a copy of all the \emph{Total} archives mentioned in the bullet point above. This archive is very large as it contains all the data from the ***NapierOne*** data set.
+- These individual archives have also been combined into three larger archives as described below:
+    - ***NapierOne-Tiny*** This archive contains a copy of all the \emph{Tiny} archives mentioned in the bullet point above.
+    - ***NapierOne-Small*** This archive contains a copy of all the \emph{Small} archives mentioned in the bullet point above.
+    - ***NapierOne-Total*** This archive contains a copy of all the \emph{Total} archives mentioned in the bullet point above. This archive is very large as it contains all the data from the ***NapierOne*** data set.
     
 Each data set archive is accompanied by documentation providing the user with a detailed description of that particular archive including attribution and licensing instructions. Using this structured approach, researchers will be able to tune, what and how much they download, to their specific requirements. Password protected versions of document and archive files all use the same password, \emph{napierone}. 
 
@@ -139,9 +139,9 @@ When accessing the website some simple registration may be required. This was im
     
 
     
-    A full listing of the dataset structure can be found [Dataset Structure](./DatasetStructure.txt)
+A full listing of the dataset structure can be found [Dataset Structure](./DatasetStructure.txt)
     
-\subsection{Access}
+
 ## Access <a name="Access">
     Need help from Amazon for this
     
