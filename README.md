@@ -133,7 +133,7 @@ The final data set is broken down as follows.
     - ***NapierOne-Small*** This archive contains a copy of all the *Small* archives mentioned in the bullet point above.
     - ***NapierOne-Total*** This archive contains a copy of all the *Total* archives mentioned in the bullet point above. This archive is very large as it contains all the data from the ***NapierOne*** data set.
     
-Each data set archive is accompanied by documentation providing the user with a detailed description of that particular archive including attribution and licensing instructions. Using this structured approach, researchers will be able to tune, what and how much they download, to their specific requirements. Password protected versions of document and archive files all use the same password, \emph{napierone}. 
+Each data set archive is accompanied by documentation providing the user with a detailed description of that particular archive including attribution and licensing instructions. Using this structured approach, researchers will be able to tune, what and how much they download, to their specific requirements. Password protected versions of document and archive files all use the same password, ***napierone***. 
 
 When accessing the website some simple registration may be required. This was implemented to allow the authors to gather some basic usage information regarding the data set. Information gathered during the registration will be handled in accordance with GDPR regulations~\cite{Union2017}. The anonymised information gathered during the registration will allow the authors to monitor the use, application and adoption of the data set.
     
