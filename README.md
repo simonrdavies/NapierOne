@@ -119,7 +119,7 @@ Again leveraging the sequence number, the target file and ransomware encrypted f
 
 ![Data Sources](img/sources3.png)
     
-As long as the attribution and license stipulations are followed, access to this \emph{NapierOne}~\cite{Davies2021} data set for research purposes is free and unrestricted. For access to the data set, visit \textbf{www.napierone.com} or alternatively contact the authors of this paper.
+As long as the attribution and license stipulations are followed, access to this ***NapierOne*** data set for research purposes is free and unrestricted. For access to the data set, visit \textbf{www.napierone.com} or alternatively contact the authors of this paper.
 
 It can be seen from that table xxx that some data subsets are extremely large, with the total uncompressed size of the entire data set is approaching 2TB. Due to its size, the data set has been broken down into smaller parts allowing the possibility to only access portions of the data set.
 The final data set is broken down as follows.
