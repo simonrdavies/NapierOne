@@ -1,8 +1,7 @@
 $NAPIERONE
-│   NapierOne-entire.zip
 │   NapierOne-small.zip
 │   NapierOne-tiny.zip
-│   
+│   NapierOne-total.zip│   
 ├───7ZIP
 │       7ZIP-BZIP2-small.zip
 │       7ZIP-BZIP2-small_zip_hashes.txt
