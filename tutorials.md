@@ -52,13 +52,13 @@ So for example , considering the Microsoft Office word document NapierOne\DOC\DO
 |File Name | Path              |  Comment|
 |--------- | --------          | ------|
 |0001-doc.doc|NapierOne\DOC\DOC| Original file|
-|0001-doc.doc.id-0481FA80.[paymentbtc@firemail.cc].cmb |NapierOneEXTRA\RANSOMWARE\DHARMA    | File encrypted using the DHARMA ransomware|
-|0001-doc.doc.OVF1GDZ                                  |NapierOneEXTRA\RANSOMWARE\MAZE      | File encrypted using the MAZE ransomware|
-|0001-doc.doc.c924ca                                   |NapierOneEXTRA\RANSOMWARE\NETWALKER | File encrypted using the NETWALKER ransomware|
-|0001-doc.doc                                          |NapierOneEXTRA\RANSOMWARE\NOTPETYA  | File encrypted using the NOTPETYA ransomware|
-|0001-doc.doc.id[0481FA80-1096].[lockhelp@qq.com].acute|NapierOneEXTRA\RANSOMWARE\PHOBOS    | File encrypted using the PHOBOS ransomware|
-|0001-doc.doc.RYK                                      |NapierOneEXTRA\RANSOMWARE\RYUK      | File encrypted using the RYUK ransomware|
-|0001-doc.doc.wiyn0sx9jt                               |NapierOneEXTRA\RANSOMWARE\SODINOKIBI| File encrypted using the SODINOKIBI ransomware|
+|0001-doc.doc.id-0481FA80.[paymentbtc@firemail.cc].cmb |NapierOne\EXTRA\RANSOMWARE\DHARMA    | File encrypted using the DHARMA ransomware|
+|0001-doc.doc.OVF1GDZ                                  |NapierOne\EXTRA\RANSOMWARE\MAZE      | File encrypted using the MAZE ransomware|
+|0001-doc.doc.c924ca                                   |NapierOne\EXTRA\RANSOMWARE\NETWALKER | File encrypted using the NETWALKER ransomware|
+|0001-doc.doc                                          |NapierOne\EXTRA\RANSOMWARE\NOTPETYA  | File encrypted using the NOTPETYA ransomware|
+|0001-doc.doc.id[0481FA80-1096].[lockhelp@qq.com].acute|NapierOne\EXTRA\RANSOMWARE\PHOBOS    | File encrypted using the PHOBOS ransomware|
+|0001-doc.doc.RYK                                      |NapierOne\EXTRA\RANSOMWARE\RYUK      | File encrypted using the RYUK ransomware|
+|0001-doc.doc.wiyn0sx9jt                               |NapierOne\EXTRA\RANSOMWARE\SODINOKIBI| File encrypted using the SODINOKIBI ransomware|
 
 As we have access to the original and the corresponding encrypted files, some examples of analysis could be:
 - Content comparison between original and encrypted files
