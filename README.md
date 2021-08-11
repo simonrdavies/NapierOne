@@ -126,7 +126,7 @@ The final data set is broken down as follows.
 - Each data subset is available in three separate archives.
     - ***Tiny*** This archive contains 100 examples of the specific file type. The actual files contained within this archive are the files of this type that have sequence numbers between 0001 and 0100.
     - ***Small*** This archive contains 1,000 examples of the specific file type. The actual files contained within this archive are the files of this type that have sequence numbers between 0001 and 1,000.
-    - ***Total*** This archive contains all the examples of the specific file type present in the \emph{NapierOne} data set.
+    - ***Total*** This archive contains all the examples of the specific file type present in the ***NapierOne*** data set.
  
 - These individual archives have also been combined into three larger archives as described below:
     - ***NapierOne-Tiny*** This archive contains a copy of all the *Tiny* archives mentioned in the bullet point above.
