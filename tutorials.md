@@ -55,16 +55,16 @@ These data subsets could then be analysed and compared as we we have examples of
 - Encryption strength.
 - File size changes due to encryption.
 - Entropy changes due to encryption.
-- 
+
 
 # Image encoding analysis <a name="ImageEncodingAnalysis"></a>
-The following data sub sets, of the NapiertOne data set, are all examples of archives: 7Zip, GZIP, TAR, RAR, ZIP and ZLIB.
+The following data sub sets, of the NapiertOne data set, are all examples of image formats: BMP,  DWG, EPS, GIF, JPG, PNG, SVG, TIF and WEBP.
 
-All these archive data subsets were created from the same source folders. A consquence of this being that content of each archive data subset are releated. The relation is provided by the sequence number of the data subset file. For eample the files in the data subset of 7Zip, GZIP,TAR, RAR, ZIP and ZLIB that have the sequence number 0001 were all created from the same source files, the same goes for sequence number 0002, 0003... and so on.
+All these archive data subsets were created from the same source TIF images. A consquence of this being that content of each image data subset are releated. The relation is provided by the sequence number of the data subset file. For eample the files in the data subset of BMP,  DWG, EPS, GIF, JPG, PNG, SVG, TIF and WEBP that have the sequence number 0001 , whn viewed will all show basically the same image and were aree gnerated from the the same base TIF image, the same goes for sequence number 0002, 0003... and so on.
 
-Due to this relationship, it is possible to compare the different archiving methods and efficiencies by comparing archives files from different archive data subsets. The archives are linked using the sequence number.
+Due to this relationship, it is possible to compare the different image encoding techniques by comparing example image files from different image data subsets. The archives are linked using the sequence number.
 
-For example the following data set files all contain archives of the same files, but were created using the different archiving methods.
+For example the following data set files all contain examples of the image, but were created using the different encoding methods.
 |File Name | Data Set | Type | Comment|
 |--------- | -------- | ---- | ------|
 |0001-7z-bzip2.7Z         | BZIP2             | 7Zip| Created using the 7Zip tool|
