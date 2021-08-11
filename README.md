@@ -8,6 +8,8 @@
     2. [File Sources](#FileSources)
 3. [Dataset Structure](#DatasetStructure)
     1. [File Name Convention](#FileNameConvention)
+    2. [File Structure](#FileStructure)
+    3. [File Collection](#FileCollection)
 5. [Documentation](#Documentation)
 6. [Tutorials](./tutorials.md)
 
@@ -80,7 +82,7 @@ A graphical representtaion of the dataset sources is shown below:
 ![Data Sources](img/sources3.png)
 
 # Dataset Details <a name="DatasetStructure"></a>
-### File Name Convention <a name="FileNameConvention">
+## File Name Convention <a name="FileNameConvention">
 To provide consistency across the entire data set, a standardised naming convention was used. Reasons for renaming the files to follow this convention were: firstly the file names reflect to some extent the content and structure of the file itself and so are self-documenting. The renaming processes provides a small degree of anonymisation and finally, files containing related content are linked via their sequence numbers. A description of the file naming convention used is shown in Figure 1. The inclusion of the sequence number facilitates the possibility of being able to cross-reference certain related files across data subsets, such as in tracing image files or archives that use the same underlying content. The file's extension value appears as part of the file name, as well as the file's actual extension. It is in both places because in some cases, such as when a file is encrypted by ransomware, the actual extension is modified. In these circumstances, the file's original extension can still be seen from the file name. 
 
 ![Figure 1](img/fig1.jpg)
@@ -105,7 +107,14 @@ The files within the data set are organised by file type into a directory hierar
 
 ![Data Sources](img/napierone-details1.jpg)
 
-    
+ ## File Structure <a name="FileStructure">   
+ \noindent Once the main data types had been collected, two additional actions were performed. Firstly a directory structure was generated where 5,000 subdirectories were created named from 0001 to 5000. Each of these subdirectories was then populated with examples from the document and image data subsets, resulting in each directory containing between 5 and 15 files of various types. The purpose of this file structure was to form a hierarchy that could be used when creating data subsets of archive file types. The following archive data subsets were then created by performing compression on this file structure: 7Zip, GZIP, RAR, TAR, Zip and ZLib. As these file formats tend to have high entropy, they will be useful in ransomware detection testing. For some file types, multiple data subsets were created allowing the option to represent different compression levels or compression techniques. Again the same naming convention was leveraged, so using the sequence number, individual-related archives can be linked together. For example, Table~\ref{tab:similar-naming-archive} shows the different archives that were generated from the source directory 0001. Unless otherwise stated, the compression tool's default values were used in the creation of the archives. 
+
+ ## File Collection <a name="FileCollection">   
+ A single, file collection, directory was created which contained examples of file types that are typically targeted by ransomware \cite{Al-rimy2018,Jung2018,Kharraz2016}. Examples of these file types being DOC, DOCX, PDF, PPT, PPTX, XLS and XLSX. This directory would act as a ransomware target directory and was placed on a previously prepared, isolated test machine, and a ransomware sample was executed in an ethical manner. Valid ransomware samples being sourced from VirusTotal~\cite{VirusTotal2019}. Once the ransomware execution had completed, the target files were examined to determine if they had been affected by the ransomware's execution. If they had, then, the affected files were checked for viruses and after confirming that they were safe, were placed in their own data subset within the \emph{NapierOne} data set. Currently, data subsets of ransomware encrypted files have been created for the following ransomware strains: NotPetya; Sodinokibi; Maze; Phobos; Netwalker; Dharma; and Ryuk.
+
+
+Again leveraging the sequence number, the target file and ransomware encrypted file can be connected. A graphical representation of the relationships between the documents data subsets and the file collection and file structure hierarchies is shown in Figure~\ref{fig:gov-doc-file-used} and an overall view of the provenance of the individual data subsets is shown in Figure~\ref{fig:data-set-sources}. 
     
     
 # Documentation <a name="Documentation"></a>
