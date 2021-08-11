@@ -119,7 +119,7 @@ Again leveraging the sequence number, the target file and ransomware encrypted f
 
 ![Data Sources](img/sources3.png)
     
- A full listing of the dataset structure can be found [Dataset Structure](./Dataset Structure)
+ A full listing of the dataset structure can be found [Dataset Structure](./DatasetStructure.txt)
     
     
 # Documentation <a name="Documentation"></a>
