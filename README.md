@@ -129,9 +129,9 @@ The final data set is broken down as follows.
     - ***Total*** This archive contains all the examples of the specific file type present in the \emph{NapierOne} data set.
  
 - These individual archives have also been combined into three larger archives as described below:
-    - ***NapierOne-Tiny*** This archive contains a copy of all the \emph{Tiny} archives mentioned in the bullet point above.
-    - ***NapierOne-Small*** This archive contains a copy of all the \emph{Small} archives mentioned in the bullet point above.
-    - ***NapierOne-Total*** This archive contains a copy of all the \emph{Total} archives mentioned in the bullet point above. This archive is very large as it contains all the data from the ***NapierOne*** data set.
+    - ***NapierOne-Tiny*** This archive contains a copy of all the *Tiny* archives mentioned in the bullet point above.
+    - ***NapierOne-Small*** This archive contains a copy of all the *Small* archives mentioned in the bullet point above.
+    - ***NapierOne-Total*** This archive contains a copy of all the *Total* archives mentioned in the bullet point above. This archive is very large as it contains all the data from the ***NapierOne*** data set.
     
 Each data set archive is accompanied by documentation providing the user with a detailed description of that particular archive including attribution and licensing instructions. Using this structured approach, researchers will be able to tune, what and how much they download, to their specific requirements. Password protected versions of document and archive files all use the same password, \emph{napierone}. 
 
