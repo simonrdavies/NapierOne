@@ -110,9 +110,9 @@ The files within the data set are organised by file type into a directory hierar
     
 # Documentation <a name="Documentation"></a>
 Documentation for this data set exists in three main areas
-1. The github repository https://github.com/simonrdavies/NapierOne/edit/main/README.md
+1. The github repository https://github.com/simonrdavies/NapierOne/blob/main/README.md
 2. The journal paper published in xxxxx
-3. Each data subset has associated with it, its own specific PDF documentation. Contained within this document are specific details relating to that specific data subset. This includes a description of the data set, how the dat awithin this specific data set was generated/gathered, contact information, license and attibution information
+3. Each data subset has associated with it, its own specific PDF documentation. This PDF is delivered together with the data subset. Contained within this document are specific details relating to that specific data subset. This includes a description of the data set, how the data within this specific data set was generated/gathered, contact information, license considerations and attibution information.
 
 
 
