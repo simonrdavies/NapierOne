@@ -60,7 +60,7 @@ So for example , considering the Microsoft Office word document NapierOne\DOC\DO
 |0001-doc.doc.RYK                                      |NapierOneEXTRA\RANSOMWARE\RYUK      | File encrypted using the RYUK ransomware|
 |0001-doc.doc.wiyn0sx9jt                               |NapierOneEXTRA\RANSOMWARE\SODINOKIBI| File encrypted using the SODINOKIBI ransomware|
 
-As we have access to the original file and the subsequent encrypted files some examples of analysis could be:
+As we have access to the original and the corresponding encrypted files, some examples of analysis could be:
 - Content comparison between original and encrypted files
 - Format and structure analysis of the encrypted file
 - Possible key determination from the encrypted file
