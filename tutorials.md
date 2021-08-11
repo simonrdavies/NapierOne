@@ -62,7 +62,8 @@ The following data sub sets, of the NapiertOne data set, are all examples of ima
 
 All these archive data subsets were created from the same source TIF images. A consquence of this being that content of each image data subset are releated. The relation is provided by the sequence number of the data subset file. For eample the files in the data subset of BMP,  DWG, EPS, GIF, JPG, PNG, SVG, TIF and WEBP that have the sequence number 0001 , whn viewed will all show basically the same image and were aree gnerated from the the same base TIF image, the same goes for sequence number 0002, 0003... and so on.
 
-Due to this relationship, it is possible to compare the different image encoding techniques by comparing example image files from different image data subsets. The archives are linked using the sequence number.
+Due to this relationship, it is possible to compare the different image encoding techniques by comparing example image files from different image data subsets. The archives are linked using the sequence number. For example using the sequence number 0001 the following related image files can be linked.
+
 ![Table 2](img/table2.jpg)
 
 A graphical representation of how the individual image data subsets are arranged is shown below:
