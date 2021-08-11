@@ -1,0 +1,736 @@
+$NAPIERONE
+│   NapierOne-entire.zip
+│   NapierOne-small.zip
+│   NapierOne-tiny.zip
+│   
+├───7ZIP
+│       7ZIP-BZIP2-small.zip
+│       7ZIP-BZIP2-small_zip_hashes.txt
+│       7ZIP-BZIP2-tiny.zip
+│       7ZIP-BZIP2-tiny_zip_hashes.txt
+│       7ZIP-BZIP2-total.zip
+│       7ZIP-BZIP2-total_zip_hashes.txt
+│       7ZIP-ENCRYPTED-small.zip
+│       7ZIP-ENCRYPTED-small_zip_hashes.txt
+│       7ZIP-ENCRYPTED-tiny.zip
+│       7ZIP-ENCRYPTED-tiny_zip_hashes.txt
+│       7ZIP-ENCRYPTED-total.zip
+│       7ZIP-ENCRYPTED-total_zip_hashes.txt
+│       7ZIP-HIGH-COMPRESSION-small.zip
+│       7ZIP-HIGH-COMPRESSION-small_zip_hashes.txt
+│       7ZIP-HIGH-COMPRESSION-tiny.zip
+│       7ZIP-HIGH-COMPRESSION-tiny_zip_hashes.txt
+│       7ZIP-HIGH-COMPRESSION-total.zip
+│       7ZIP-HIGH-COMPRESSION-total_zip_hashes.txt
+│       7ZIP-LZMA-small.zip
+│       7ZIP-LZMA-small_zip_hashes.txt
+│       7ZIP-LZMA-tiny.zip
+│       7ZIP-LZMA-tiny_zip_hashes.txt
+│       7ZIP-LZMA-total.zip
+│       7ZIP-LZMA-total_zip_hashes.txt
+│       7ZIP-LZMA2-small.zip
+│       7ZIP-LZMA2-small_zip_hashes.txt
+│       7ZIP-LZMA2-tiny.zip
+│       7ZIP-LZMA2-tiny_zip_hashes.txt
+│       7ZIP-LZMA2-total.zip
+│       7ZIP-LZMA2-total_zip_hashes.txt
+│       7ZIP-PPMD-tiny.zip
+│       7ZIP-PPMD-tiny_zip_hashes.txt
+│       7ZIP-PPMD-total.zip
+│       7ZIP-PPMD-total_zip_hashes.txt
+│       7ZIP-small.zip
+│       7ZIP-small_zip_hashes.txt
+│       BZIP2.pdf
+│       ENCRYPTED.pdf
+│       HIGH-COMPRESSION.pdf
+│       LZMA.pdf
+│       LZMA2.pdf
+│       PPMD.pdf
+│       
+├───APK
+│       APK-small.zip
+│       APK-small_zip_hashes.txt
+│       APK-tiny.zip
+│       APK-tiny_zip_hashes.txt
+│       APK-total.zip
+│       APK-total_zip_hashes.txt
+│       APK.pdf
+│       
+├───BIN
+│       BIN-small.zip
+│       BIN-small_zip_hashes.txt
+│       BIN-tiny.zip
+│       BIN-tiny_zip_hashes.txt
+│       BIN-total.zip
+│       BIN-total_zip_hashes.txt
+│       BIN.pdf
+│       
+├───BMP
+│       BMP-small.zip
+│       BMP-small_zip_hashes.txt
+│       BMP-tiny.zip
+│       BMP-tiny_zip_hashes.txt
+│       BMP-total.zip
+│       BMP-total_zip_hashes.txt
+│       BMP.pdf
+│       
+├───CSS
+│       CSS-small.zip
+│       CSS-small_zip_hashes.txt
+│       CSS-tiny.zip
+│       CSS-tiny_zip_hashes.txt
+│       CSS-total.zip
+│       CSS-total_zip_hashes.txt
+│       CSS.pdf
+│       
+├───CSV
+│       CSV-small.zip
+│       CSV-small_zip_hashes.txt
+│       CSV-tiny.zip
+│       CSV-tiny_zip_hashes.txt
+│       CSV-total.zip
+│       CSV-total_zip_hashes.txt
+│       CSV.pdf
+│       
+├───DLL
+│       DLL-small.zip
+│       DLL-small_zip_hashes.txt
+│       DLL-tiny.zip
+│       DLL-tiny_zip_hashes.txt
+│       DLL-total.zip
+│       DLL-total_zip_hashes.txt
+│       DLL.pdf
+│       
+├───DOC
+│       DOC-NOMAGIC-small.zip
+│       DOC-NOMAGIC-small_zip_hashes.txt
+│       DOC-NOMAGIC-tiny.zip
+│       DOC-NOMAGIC-tiny_zip_hashes.txt
+│       DOC-NOMAGIC-total.zip
+│       DOC-NOMAGIC-total_zip_hashes.txt
+│       DOC-NOMAGIC.pdf
+│       DOC-PASSWORD-small.zip
+│       DOC-PASSWORD-small_zip_hashes.txt
+│       DOC-PASSWORD-tiny.zip
+│       DOC-PASSWORD-tiny_zip_hashes.txt
+│       DOC-PASSWORD-total.zip
+│       DOC-PASSWORD-total_zip_hashes.txt
+│       DOC-PASSWORD.pdf
+│       DOC-small.zip
+│       DOC-small_zip_hashes.txt
+│       DOC-tiny.zip
+│       DOC-tiny_zip_hashes.txt
+│       DOC-total.zip
+│       DOC-total_zip_hashes.txt
+│       DOC.pdf
+│       
+├───DOCX
+│       DOCX-NOMAGIC-small.zip
+│       DOCX-NOMAGIC-small_zip_hashes.txt
+│       DOCX-NOMAGIC-tiny.zip
+│       DOCX-NOMAGIC-tiny_zip_hashes.txt
+│       DOCX-NOMAGIC-total.zip
+│       DOCX-NOMAGIC-total_zip_hashes.txt
+│       DOCX-NOMAGIC.pdf
+│       DOCX-PASSWORD-small.zip
+│       DOCX-PASSWORD-small_zip_hashes.txt
+│       DOCX-PASSWORD-tiny.zip
+│       DOCX-PASSWORD-tiny_zip_hashes.txt
+│       DOCX-PASSWORD-total.zip
+│       DOCX-PASSWORD-total_zip_hashes.txt
+│       DOCX-PASSWORD.pdf
+│       DOCX-small.zip
+│       DOCX-small_zip_hashes.txt
+│       DOCX-tiny.zip
+│       DOCX-tiny_zip_hashes.txt
+│       DOCX-total.zip
+│       DOCX-total_zip_hashes.txt
+│       DOCX.pdf
+│       
+├───DWG
+│       DWG-small.zip
+│       DWG-small_zip_hashes.txt
+│       DWG-tiny.zip
+│       DWG-tiny_zip_hashes.txt
+│       DWG-total.zip
+│       DWG-total_zip_hashes.txt
+│       DWG.pdf
+│       
+├───ELF
+│       ELF-small.zip
+│       ELF-small_zip_hashes.txt
+│       ELF-tiny.zip
+│       ELF-tiny_zip_hashes.txt
+│       ELF-total.zip
+│       ELF-total_zip_hashes.txt
+│       ELF.pdf
+│       
+├───EPS
+│       EPS-small.zip
+│       EPS-small_zip_hashes.txt
+│       EPS-tiny.zip
+│       EPS-tiny_zip_hashes.txt
+│       EPS-total.zip
+│       EPS-total_zip_hashes.txt
+│       EPS.pdf
+│       
+├───EPUB
+│       EPUB-small.zip
+│       EPUB-small_zip_hashes.txt
+│       EPUB-tiny.zip
+│       EPUB-tiny_zip_hashes.txt
+│       EPUB-total.zip
+│       EPUB-total_zip_hashes.txt
+│       EPUB.pdf
+│       
+├───EXE
+│       exe-small.zip
+│       exe-small_zip_hashes.txt
+│       EXE-tiny.zip
+│       EXE-tiny_zip_hashes.txt
+│       exe-total.zip
+│       exe-total_zip_hashes.txt
+│       EXE.pdf
+│       
+├───EXTRA
+│       MAZE.pdf
+│       NETWALKER.pdf
+│       NOTPETYA.pdf
+│       PHOBOS.pdf
+│       RANSOMWARE-DHARMA-small.zip
+│       RANSOMWARE-DHARMA-small_zip_hashes.txt
+│       RANSOMWARE-DHARMA-tiny.zip
+│       RANSOMWARE-DHARMA-tiny_zip_hashes.txt
+│       RANSOMWARE-DHARMA-total.zip
+│       RANSOMWARE-DHARMA-total_zip_hashes.txt
+│       RANSOMWARE-MAZE-small.zip
+│       RANSOMWARE-MAZE-small_zip_hashes.txt
+│       RANSOMWARE-MAZE-tiny.zip
+│       RANSOMWARE-MAZE-tiny_zip_hashes.txt
+│       RANSOMWARE-MAZE-total.zip
+│       RANSOMWARE-MAZE-total_zip_hashes.txt
+│       RANSOMWARE-NETWALKER-small.zip
+│       RANSOMWARE-NETWALKER-small_zip_hashes.txt
+│       RANSOMWARE-NETWALKER-tiny.zip
+│       RANSOMWARE-NETWALKER-tiny_zip_hashes.txt
+│       RANSOMWARE-NETWALKER-total.zip
+│       RANSOMWARE-NETWALKER-total_zip_hashes.txt
+│       RANSOMWARE-NOTPETYA-small.zip
+│       RANSOMWARE-NOTPETYA-small_zip_hashes.txt
+│       RANSOMWARE-NOTPETYA-tiny.zip
+│       RANSOMWARE-NOTPETYA-tiny_zip_hashes.txt
+│       RANSOMWARE-NOTPETYA-total.zip
+│       RANSOMWARE-NOTPETYA-total_zip_hashes.txt
+│       RANSOMWARE-PHOBOS-small.zip
+│       RANSOMWARE-PHOBOS-small_zip_hashes.txt
+│       RANSOMWARE-PHOBOS-tiny.zip
+│       RANSOMWARE-PHOBOS-tiny_zip_hashes.txt
+│       RANSOMWARE-PHOBOS-total.zip
+│       RANSOMWARE-PHOBOS-total_zip_hashes.txt
+│       RANSOMWARE-RYUK-small.zip
+│       RANSOMWARE-RYUK-small_zip_hashes.txt
+│       RANSOMWARE-RYUK-tiny.zip
+│       RANSOMWARE-RYUK-tiny_zip_hashes.txt
+│       RANSOMWARE-RYUK-total.zip
+│       RANSOMWARE-RYUK-total_zip_hashes.txt
+│       RANSOMWARE-SODINOKIBI-small.zip
+│       RANSOMWARE-SODINOKIBI-small_zip_hashes.txt
+│       RANSOMWARE-SODINOKIBI-tiny.zip
+│       RANSOMWARE-SODINOKIBI-tiny_zip_hashes.txt
+│       RANSOMWARE-SODINOKIBI-total.zip
+│       RANSOMWARE-SODINOKIBI-total_zip_hashes.txt
+│       RYUK.pdf
+│       SODINOKIBI.pdf
+│       
+├───GIF
+│       GIF-small.zip
+│       GIF-small_zip_hashes.txt
+│       GIF-tiny.zip
+│       GIF-tiny_zip_hashes.txt
+│       GIF-total.zip
+│       GIF-total_zip_hashes.txt
+│       GIF.pdf
+│       
+├───GZIP
+│       GZ.pdf
+│       GZIP-small.zip
+│       GZIP-small_zip_hashes.txt
+│       GZIP-tiny.zip
+│       GZIP-tiny_zip_hashes.txt
+│       GZIP-total.zip
+│       GZIP-total_zip_hashes.txt
+│       
+├───HTML
+│       HTML-small.zip
+│       HTML-small_zip_hashes.txt
+│       HTML-tiny.zip
+│       HTML-tiny_zip_hashes.txt
+│       HTML-total.zip
+│       HTML-total_zip_hashes.txt
+│       HTML.pdf
+│       
+├───ICS
+│       ICS-small.zip
+│       ICS-small_zip_hashes.txt
+│       ICS-tiny.zip
+│       ICS-tiny_zip_hashes.txt
+│       ICS-total.zip
+│       ICS-total_zip_hashes.txt
+│       ICS.pdf
+│       
+├───JAVASCRIPT
+│       JAVASCRIPT-small.zip
+│       JAVASCRIPT-small_zip_hashes.txt
+│       JAVASCRIPT-tiny.zip
+│       JAVASCRIPT-tiny_zip_hashes.txt
+│       JAVASCRIPT-total.zip
+│       JAVASCRIPT-total_zip_hashes.txt
+│       JAVASCRIPT.pdf
+│       
+├───JPG
+│       JPG-from-web-small.zip
+│       JPG-from-web-small_zip_hashes.txt
+│       JPG-from-web-tiny.zip
+│       JPG-from-web-tiny_zip_hashes.txt
+│       JPG-from-web-total.zip
+│       JPG-from-web-total_zip_hashes.txt
+│       jpg-from-web.pdf
+│       JPG-q001-small.zip
+│       JPG-q001-small_zip_hashes.txt
+│       JPG-q001-tiny.zip
+│       JPG-q001-tiny_zip_hashes.txt
+│       JPG-q001-total.zip
+│       JPG-q001-total_zip_hashes.txt
+│       JPG-q025-small.zip
+│       JPG-q025-small_zip_hashes.txt
+│       JPG-q025-tiny.zip
+│       JPG-q025-tiny_zip_hashes.txt
+│       JPG-q025-total.zip
+│       JPG-q025-total_zip_hashes.txt
+│       JPG-q050-small.zip
+│       JPG-q050-small_zip_hashes.txt
+│       JPG-q050-tiny.zip
+│       JPG-q050-tiny_zip_hashes.txt
+│       JPG-q050-total.zip
+│       JPG-q050-total_zip_hashes.txt
+│       JPG-q075-small.zip
+│       JPG-q075-small_zip_hashes.txt
+│       JPG-q075-tiny.zip
+│       JPG-q075-tiny_zip_hashes.txt
+│       JPG-q075-total.zip
+│       JPG-q075-total_zip_hashes.txt
+│       JPG-q100-small.zip
+│       JPG-q100-small_zip_hashes.txt
+│       JPG-q100-tiny.zip
+│       JPG-q100-tiny_zip_hashes.txt
+│       JPG-total.zip
+│       JPG-total_zip_hashes.txt
+│       quality-01-percent.pdf
+│       quality-100-percent.pdf
+│       quality-25-percent.pdf
+│       quality-50-percent.pdf
+│       quality-75-percent.pdf
+│       
+├───JSON
+│       JSON-small.zip
+│       JSON-small_zip_hashes.txt
+│       JSON-tiny.zip
+│       JSON-tiny_zip_hashes.txt
+│       JSON-total.zip
+│       JSON-total_zip_hashes.txt
+│       JSON.pdf
+│       
+├───MKV
+│       MKV-small.zip
+│       MKV-small_zip_hashes.txt
+│       MKV-tiny.zip
+│       MKV-tiny_zip_hashes.txt
+│       MKV-total.zip
+│       MKV-total_zip_hashes.txt
+│       MKV.pdf
+│       
+├───MP3
+│       MP3-small.zip
+│       MP3-small_zip_hashes.txt
+│       MP3-tiny.zip
+│       MP3-tiny_zip_hashes.txt
+│       MP3-total.zip
+│       MP3-total_zip_hashes.txt
+│       MP3.pdf
+│       
+├───MP4
+│       MP4-small.zip
+│       MP4-small_zip_hashes.txt
+│       MP4-tiny.zip
+│       MP4-tiny_zip_hashes.txt
+│       MP4-total.zip
+│       MP4-total_zip_hashes.txt
+│       MP4.pdf
+│       
+├───ODS
+│       ODS-small.zip
+│       ODS-small_zip_hashes.txt
+│       ODS-tiny.zip
+│       ODS-tiny_zip_hashes.txt
+│       ODS-total.zip
+│       ODS-total_zip_hashes.txt
+│       ODS.pdf
+│       
+├───OXPS
+│       OXPS-small.zip
+│       OXPS-small_zip_hashes.txt
+│       OXPS-tiny.zip
+│       OXPS-tiny_zip_hashes.txt
+│       OXPS-total.zip
+│       OXPS-total_zip_hashes.txt
+│       OXPS.pdf
+│       
+├───PDF
+│       PDF--PASSWORD-total_zip_hashes.txt
+│       PDF-NOMAGIC-small.zip
+│       PDF-NOMAGIC-small_zip_hashes.txt
+│       PDF-NOMAGIC-tiny.zip
+│       PDF-NOMAGIC-tiny_zip_hashes.txt
+│       PDF-NOMAGIC-total.zip
+│       PDF-NOMAGIC-total_zip_hashes.txt
+│       PDF-NOMAGIC.pdf
+│       PDF-PASSWORD-small.zip
+│       PDF-PASSWORD-small_zip_hashes.txt
+│       PDF-PASSWORD-tiny.zip
+│       PDF-PASSWORD-tiny_zip_hashes.txt
+│       PDF-PASSWORD-total.zip
+│       PDF-PASSWORD.pdf
+│       PDF-small.zip
+│       PDF-small_zip_hashes.txt
+│       PDF-tiny.zip
+│       PDF-tiny_zip_hashes.txt
+│       PDF-total.zip
+│       PDF-total_zip_hashes.txt
+│       PDF.pdf
+│       
+├───PNG
+│       C0.pdf
+│       C3.pdf
+│       C5.pdf
+│       C7.pdf
+│       C9.pdf
+│       PNG-c0-small.zip
+│       PNG-c0-small_zip_hashes.txt
+│       PNG-c0-tiny.zip
+│       PNG-c0-tiny_zip_hashes.txt
+│       PNG-c0-total.zip
+│       PNG-c0-total_zip_hashes.txt
+│       PNG-c3-small.zip
+│       PNG-c3-small_zip_hashes.txt
+│       PNG-c3-tiny.zip
+│       PNG-c3-tiny_zip_hashes.txt
+│       PNG-c3-total.zip
+│       PNG-c3-total_zip_hashes.txt
+│       PNG-c5-small.zip
+│       PNG-c5-small_zip_hashes.txt
+│       PNG-c5-tiny.zip
+│       PNG-c5-tiny_zip_hashes.txt
+│       PNG-c5-total.zip
+│       PNG-c5-total_zip_hashes.txt
+│       PNG-c7-small.zip
+│       PNG-c7-small_zip_hashes.txt
+│       PNG-c7-tiny.zip
+│       PNG-c7-tiny_zip_hashes.txt
+│       PNG-c7-total.zip
+│       PNG-c7-total_zip_hashes.txt
+│       PNG-c9-small.zip
+│       PNG-c9-small_zip_hashes.txt
+│       PNG-c9-tiny.zip
+│       PNG-c9-tiny_zip_hashes.txt
+│       PNG-c9-total.zip
+│       PNG-c9-total_zip_hashes.txt
+│       
+├───POWERSHELL
+│       POWERSHELL-small.zip
+│       POWERSHELL-small_zip_hashes.txt
+│       POWERSHELL-tiny.zip
+│       POWERSHELL-tiny_zip_hashes.txt
+│       POWERSHELL-total.zip
+│       POWERSHELL-total_zip_hashes.txt
+│       PS1.pdf
+│       
+├───PPT
+│       PPT-NOMAGIC-small.zip
+│       PPT-NOMAGIC-small_zip_hashes.txt
+│       PPT-NOMAGIC-tiny.zip
+│       PPT-NOMAGIC-tiny_zip_hashes.txt
+│       PPT-NOMAGIC-total.zip
+│       PPT-NOMAGIC-total_zip_hashes.txt
+│       PPT-NOMAGIC.pdf
+│       PPT-PASSWORD-small.zip
+│       PPT-PASSWORD-small_zip_hashes.txt
+│       PPT-PASSWORD-tiny.zip
+│       PPT-PASSWORD-tiny_zip_hashes.txt
+│       PPT-PASSWORD-total.zip
+│       PPT-PASSWORD-total_zip_hashes.txt
+│       PPT-PASSWORD.pdf
+│       PPT-small.zip
+│       PPT-small_zip_hashes.txt
+│       PPT-tiny.zip
+│       PPT-tiny_zip_hashes.txt
+│       PPT-total.zip
+│       PPT-total_zip_hashes.txt
+│       PPT.pdf
+│       
+├───PPTX
+│       PPTX-NOMAGIC-small.zip
+│       PPTX-NOMAGIC-small_zip_hashes.txt
+│       PPTX-NOMAGIC-tiny.zip
+│       PPTX-NOMAGIC-tiny_zip_hashes.txt
+│       PPTX-NOMAGIC-total.zip
+│       PPTX-NOMAGIC-total_zip_hashes.txt
+│       PPTX-NOMAGIC.pdf
+│       PPTX-PASSWORD-small.zip
+│       PPTX-PASSWORD-small_zip_hashes.txt
+│       PPTX-PASSWORD-tiny.zip
+│       PPTX-PASSWORD-tiny_zip_hashes.txt
+│       PPTX-PASSWORD-total.zip
+│       PPTX-PASSWORD-total_zip_hashes.txt
+│       PPTX-PASSWORD.pdf
+│       PPTX-small.zip
+│       PPTX-small_zip_hashes.txt
+│       PPTX-tiny.zip
+│       PPTX-tiny_zip_hashes.txt
+│       PPTX-total.zip
+│       PPTX-total_zip_hashes.txt
+│       PPTX.pdf
+│       
+├───RANDOM
+│       RANDOM-PSEUDO-small.zip
+│       RANDOM-PSEUDO-small_zip_hashes.txt
+│       RANDOM-PSEUDO-tiny.zip
+│       RANDOM-PSEUDO-tiny_zip_hashes.txt
+│       RANDOM-PSEUDO-total.zip
+│       RANDOM-PSEUDO-total_zip_hashes.txt
+│       RANDOM-PSEUDO.pdf
+│       RANDOM-PURE-small.zip
+│       RANDOM-PURE-small_zip_hashes.txt
+│       RANDOM-PURE-tiny.zip
+│       RANDOM-PURE-tiny_zip_hashes.txt
+│       RANDOM-PURE-total.zip
+│       RANDOM-PURE-total_zip_hashes.txt
+│       RANDOM-PURE.pdf
+│       
+├───RAR
+│       RAR-small.zip
+│       RAR-small_zip_hashes.txt
+│       RAR-tiny.zip
+│       RAR-tiny_zip_hashes.txt
+│       RAR-total.zip
+│       RAR-total_zip_hashes.txt
+│       RAR.pdf
+│       
+├───SVG
+│       SVG-small.zip
+│       SVG-small_zip_hashes.txt
+│       SVG-tiny.zip
+│       SVG-tiny_zip_hashes.txt
+│       SVG-total.zip
+│       SVG-total_zip_hashes.txt
+│       SVG.pdf
+│       
+├───TAR
+│       TAR-small.zip
+│       TAR-small_zip_hashes.txt
+│       TAR-tiny.zip
+│       TAR-tiny_zip_hashes.txt
+│       TAR-total.zip
+│       TAR-total_zip_hashes.txt
+│       TAR.pdf
+│       
+├───TIF
+│       TIF-RESIZED-small.zip
+│       TIF-RESIZED-small_zip_hashes.txt
+│       TIF-RESIZED-tiny.zip
+│       TIF-RESIZED-tiny_zip_hashes.txt
+│       TIF-RESIZED-total.zip
+│       TIF-RESIZED-total_zip_hashes.txt
+│       TIF-RESIZED.pdf
+│       TIF-small.zip
+│       TIF-small_zip_hashes.txt
+│       TIF-tiny.zip
+│       TIF-tiny_zip_hashes.txt
+│       TIF-total.zip
+│       TIF-total_zip_hashes.txt
+│       TIF.pdf
+│       
+├───TXT
+│       TXT-small.zip
+│       TXT-small_zip_hashes.txt
+│       TXT-tiny.zip
+│       TXT-tiny_zip_hashes.txt
+│       TXT-total.zip
+│       TXT-total_zip_hashes.txt
+│       TXT.pdf
+│       
+├───WEBP
+│       lossless-c0-small.zip
+│       lossless-c0-small_zip_hashes.txt
+│       lossless-c0-tiny.zip
+│       lossless-c0-tiny_zip_hashes.txt
+│       lossless-c0-total.zip
+│       lossless-c0-total_zip_hashes.txt
+│       lossless-c2-small.zip
+│       lossless-c2-small_zip_hashes.txt
+│       lossless-c2-tiny.zip
+│       lossless-c2-tiny_zip_hashes.txt
+│       lossless-c2-total.zip
+│       lossless-c2-total_zip_hashes.txt
+│       lossless-c4-small.zip
+│       lossless-c4-small_zip_hashes.txt
+│       lossless-c4-tiny.zip
+│       lossless-c4-tiny_zip_hashes.txt
+│       lossless-c4-total.zip
+│       lossless-c4-total_zip_hashes.txt
+│       lossless-c6-small.zip
+│       lossless-c6-small_zip_hashes.txt
+│       lossless-c6-tiny.zip
+│       lossless-c6-tiny_zip_hashes.txt
+│       lossless-c6-total.zip
+│       lossless-c6-total_zip_hashes.txt
+│       q50-c0-small.zip
+│       q50-c0-small_zip_hashes.txt
+│       q50-c0-tiny.zip
+│       q50-c0-tiny_zip_hashes.txt
+│       q50-c0-total.zip
+│       q50-c0-total_zip_hashes.txt
+│       q50-c2-small.zip
+│       q50-c2-small_zip_hashes.txt
+│       q50-c2-tiny.zip
+│       q50-c2-tiny_zip_hashes.txt
+│       q50-c2-total.zip
+│       q50-c2-total_zip_hashes.txt
+│       q50-c4-small.zip
+│       q50-c4-small_zip_hashes.txt
+│       q50-c4-tiny.zip
+│       q50-c4-tiny_zip_hashes.txt
+│       q50-c4-total.zip
+│       q50-c4-total_zip_hashes.txt
+│       q50-c6-small.zip
+│       q50-c6-small_zip_hashes.txt
+│       q50-c6-tiny.zip
+│       q50-c6-tiny_zip_hashes.txt
+│       q50-c6-total.zip
+│       q50-c6-total_zip_hashes.txt
+│       Q50-COMPRESSION-0.pdf
+│       Q50-COMPRESSION-2.pdf
+│       Q50-COMPRESSION-4.pdf
+│       Q50-COMPRESSION-6.pdf
+│       WEBP-LOSSLESS-C0.pdf
+│       WEBP-LOSSLESS-C2.pdf
+│       WEBP-LOSSLESS-C4.pdf
+│       WEBP-LOSSLESS-C6.pdf
+│       
+├───XLS
+│       XLS-NOMAGIC-small.zip
+│       XLS-NOMAGIC-small_zip_hashes.txt
+│       XLS-NOMAGIC-tiny.zip
+│       XLS-NOMAGIC-tiny_zip_hashes.txt
+│       XLS-NOMAGIC-total.zip
+│       XLS-NOMAGIC-total_zip_hashes.txt
+│       XLS-NOMAGIC.pdf
+│       XLS-PASSWORD-small.zip
+│       XLS-PASSWORD-small_zip_hashes.txt
+│       XLS-PASSWORD-tiny.zip
+│       XLS-PASSWORD-tiny_zip_hashes.txt
+│       XLS-PASSWORD-total.zip
+│       XLS-PASSWORD-total_zip_hashes.txt
+│       XLS-PASSWORD.pdf
+│       XLS-small.zip
+│       XLS-small_zip_hashes.txt
+│       XLS-tiny.zip
+│       XLS-tiny_zip_hashes.txt
+│       XLS-total.zip
+│       XLS-total_zip_hashes.txt
+│       XLS.pdf
+│       
+├───XLSX
+│       XLSX-NOMAGIC-small.zip
+│       XLSX-NOMAGIC-small_zip_hashes.txt
+│       XLSX-NOMAGIC-tiny.zip
+│       XLSX-NOMAGIC-tiny_zip_hashes.txt
+│       XLSX-NOMAGIC-total.zip
+│       XLSX-NOMAGIC-total_zip_hashes.txt
+│       XLSX-NOMAGIC.pdf
+│       XLSX-PASSWORD-small.zip
+│       XLSX-PASSWORD-small_zip_hashes.txt
+│       XLSX-PASSWORD-tiny.zip
+│       XLSX-PASSWORD-tiny_zip_hashes.txt
+│       XLSX-PASSWORD-total.zip
+│       XLSX-PASSWORD-total_zip_hashes.txt
+│       XLSX-PASSWORD.pdf
+│       XLSX-small.zip
+│       XLSX-small_zip_hashes.txt
+│       XLSX-tiny.zip
+│       XLSX-tiny_zip_hashes.txt
+│       XLSX-total.zip
+│       XLSX-total_zip_hashes.txt
+│       XLSX.pdf
+│       
+├───XML
+│       XML-small.zip
+│       XML-small_zip_hashes.txt
+│       XML-tiny.zip
+│       XML-tiny_zip_hashes.txt
+│       XML-total.zip
+│       XML-total_zip_hashes.txt
+│       XML.pdf
+│       
+├───ZIP
+│       DEFLATE.pdf
+│       ENCRYPTED.pdf
+│       HIGH-COMPRESSION.pdf
+│       LZMA.pdf
+│       PPMD.pdf
+│       ZIP-BZIP2-small.zip
+│       ZIP-BZIP2-small_zip_hashes.txt
+│       ZIP-BZIP2-tiny.zip
+│       ZIP-BZIP2-tiny_zip_hashes.txt
+│       ZIP-BZIP2-total.zip
+│       ZIP-BZIP2-total_zip_hashes.txt
+│       ZIP-BZIP2.pdf
+│       ZIP-DEFLATE-small.zip
+│       ZIP-DEFLATE-small_zip_hashes.txt
+│       ZIP-DEFLATE-tiny.zip
+│       ZIP-DEFLATE-tiny_zip_hashes.txt
+│       ZIP-DEFLATE-total.zip
+│       ZIP-DEFLATE-total_zip_hashes.txt
+│       ZIP-ENCRYPTED-small.zip
+│       ZIP-ENCRYPTED-small_zip_hashes.txt
+│       ZIP-ENCRYPTED-tiny.zip
+│       ZIP-ENCRYPTED-tiny_zip_hashes.txt
+│       ZIP-ENCRYPTED-total.zip
+│       ZIP-ENCRYPTED-total_zip_hashes.txt
+│       ZIP-HIGH-COMPRESSION-small.zip
+│       ZIP-HIGH-COMPRESSION-small_zip_hashes.txt
+│       ZIP-HIGH-COMPRESSION-tiny.zip
+│       ZIP-HIGH-COMPRESSION-tiny_zip_hashes.txt
+│       ZIP-HIGH-COMPRESSION-total.zip
+│       ZIP-HIGH-COMPRESSION-total_zip_hashes.txt
+│       ZIP-LZMA-small.zip
+│       ZIP-LZMA-small_zip_hashes.txt
+│       ZIP-LZMA-tiny.zip
+│       ZIP-LZMA-tiny_zip_hashes.txt
+│       ZIP-LZMA-total.zip
+│       ZIP-LZMA-total_zip_hashes.txt
+│       ZIP-PPMD-small.zip
+│       ZIP-PPMD-small_zip_hashes.txt
+│       ZIP-PPMD-tiny.zip
+│       ZIP-PPMD-tiny_zip_hashes.txt
+│       ZIP-PPMD-total.zip
+│       ZIP-PPMD-total_zip_hashes.txt
+│       
+└───ZLIB
+        ZLIB-small.zip
+        ZLIB-small_zip_hashes.txt
+        ZLIB-tiny.zip
+        ZLIB-tiny_zip_hashes.txt
+        ZLIB-total.zip
+        ZLIB-total_zip_hashes.txt
+        ZLIB.pdf
+        
