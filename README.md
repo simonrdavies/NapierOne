@@ -22,7 +22,7 @@ An investigation was performed with the goal of determining the common files typ
 ### File Selection<a name="FileSelection"></a>
 An important aspect of building a representative data set relates to file type usage and popularity. It is known that Google gathers statistics on file types while it performs its website indexing searches. However, the statistics are only gathered on a limited number of file types (https://support.google.com/webmasters/answer/35287?hl=en http://googlegsa.github.io/adaptor/index.html). 
 While it was not possible to discover a definitive ranked list of files types currently in use, it was decided to adopt a consensus approach. This involved querying various sources of possible usage information and gathering approximate lists of up to their Top 40 file types. These lists were then compared and aggregated with the lists gathered from other sources, resulting in what the authors believe to be a fair representation of what are currently popular file types are in use today. The list produced is not proposed as definitive but rather a best guess consensus.
-A list of the sources for file type usage information is discussed below. The alphabetical identification used for each data source is then repeated in the data set description shown in Table~\ref{tab:data-set-details}.
+A list of the sources for file type usage information is discussed below. The alphabetical identification used for each data source is then repeated in the data set description shown in Figure 3.
 
 ***A - VirusTotal*** Statistics taken from file submissions to this website~\cite{VirusTotal2019} during that past 12 months were recorded.
 
@@ -86,7 +86,7 @@ To provide consistency across the entire data set, a standardised naming convent
     
 For example, for the first file in the DOCX data subset that has been password-protected, the name would be the value shown in Figure 2. 
 
-![Figure 1](img/fig2.jpg)
+![Figure 2](img/fig2.jpg)
     
 Examples of how the sequence number is used to link related files are shown in Tables 2 and 3. 
     
@@ -101,7 +101,9 @@ When renaming the files, a record is kept of the mapping between the original an
 The files within the data set are organised by file type into a directory hierarchy. On the top level are the main file types, such as DOC, PPTX, ZIP, and so on. Below these main type classification directories are one or more subdirectories, one for each type of file format variation. For example, a BZIP directory containing files created using the bzip compression method of the ZIP program, would be found under the main zip directory. The directory structure of the data set can be deduced from Table~\ref{tab:data-set-details}. Contained within each directory that holds data, is a description file in both HTML and PDF formats, which describes the data held within that data subset. The description file includes amongst other things: a description of the data files, where the data was sourced, the licence details and contact information.
 
 
-![Data Sources](img/napierone-details1.jpg)
+![Data Sources \label{datasources}](img/napierone-details1.jpg)    
+***Fig. 3.***
+    
 
  ## File Structure <a name="FileStructure">   
 Once the main data types had been collected, two additional actions were performed. Firstly a directory structure was generated where 5,000 subdirectories were created named from 0001 to 5000. Each of these subdirectories was then populated with examples from the document and image data subsets, resulting in each directory containing between 5 and 15 files of various types. The purpose of this file structure was to form a hierarchy that could be used when creating data subsets of archive file types. The following archive data subsets were then created by performing compression on this file structure: 7Zip, GZIP, RAR, TAR, Zip and ZLib. As these file formats tend to have high entropy, they will be useful in ransomware detection testing. For some file types, multiple data subsets were created allowing the option to represent different compression levels or compression techniques. Again the same naming convention was leveraged, so using the sequence number, individual-related archives can be linked together. For example, Table 3 shows the different archives that were generated from the source directory 0001. Unless otherwise stated, the compression tool's default values were used in the creation of the archives. 
@@ -112,10 +114,12 @@ Once the main data types had been collected, two additional actions were perform
 Again leveraging the sequence number, the target file and ransomware encrypted file can be connected. A graphical representation of the relationships between the documents data subsets and the file collection and file structure hierarchies is shown in Figure 4.
     
 ![File Collections](img/gov.png)
+***Fig. 4.***    
     
  An overall view of the provenance of the individual data subsets is shown below: 
 
 ![Data Sources](img/sources3.png)
+***Fig. 5.***    
     
 As long as the attribution and license stipulations are followed, access to this ***NapierOne*** data set for research purposes is free and unrestricted. For access to the data set, visit www.napierone.com or alternatively contact the authors of this page.
 
