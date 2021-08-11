@@ -24,7 +24,7 @@ An important aspect of building a representative data set relates to file type u
 While it was not possible to discover a definitive ranked list of files types currently in use, it was decided to adopt a consensus approach. This involved querying various sources of possible usage information and gathering approximate lists of up to their Top 40 file types. These lists were then compared and aggregated with the lists gathered from other sources, resulting in what the authors believe to be a fair representation of what are currently popular file types are in use today. The list produced is not proposed as definitive but rather a best guess consensus.
 A list of the sources for file type usage information is discussed below. The alphabetical identification used for each data source is then repeated in the data set description shown in Figure 3.
 
-***A - VirusTotal*** Statistics taken from file submissions to this websit (https://www.virustotaL.com) during that past 12 months were recorded.
+***A - VirusTotal*** Statistics taken from file submissions to this website (https://www.virustotaL.com) during that past 12 months were recorded.
 
 ***B - W3Techs*** The website (http://w3techs.com/technologies/overview/) provides information about the usage of various types of technologies on the web. Statistics relating to the most popular images types were gathered from here.
 
@@ -140,10 +140,10 @@ When accessing the website some simple registration may be required. This was im
 
     
 
-A conceptual view of the entore data set can be seen here [Conceptual Dataset structure](img/conceptual-file-tree-structure.jpg). 
+A conceptual view of the entire data set can be seen here [Conceptual Dataset structure](img/conceptual-file-tree-structure.jpg). 
     
-As mentioned above the directories that contain the actual files have been compressed. Each sub dataset diretory exists as three seperate zip archive files. One which contains the name *tiny* is a zip file that holds the first 100 files of the data subset. One which contains the name *small* is a zip file that holds the first 1000 files of the data subset and one which contains the name *total* is a zip file that holds al the files of the data subset.
-A full listing of the dataset structure can be found [Dataset Structure](./DatasetStructure.txt), the subd    
+As mentioned above the directories that contain the actual files have been compressed. Each sub dataset directory exists as three separate zip archive files. One which contains the name *tiny* is a zip file that holds the first 100 files of the data subset. One which contains the name *small* is a zip file that holds the first 1000 files of the data subset and one which contains the name *total* is a zip file that holds al the files of the data subset.
+A full listing of the dataset structure can be found [Dataset Structure](./DatasetStructure.txt).   
 
 ## Access <a name="Access">
     Need help from Amazon for this
