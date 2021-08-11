@@ -113,10 +113,11 @@ Once the main data types had been collected, two additional actions were perform
  ## File Collection <a name="FileCollection">   
  A single, file collection, directory was created which contained examples of file types that are typically targeted by ransomware (https://doi.org/10.1016/j.cose.2018.01.001 https://doi.org/10.1007/s00500-018-3257-z https://doi.ieeecomputersociety.org/10.1109/SANER.2017.7884603). Examples of these file types being DOC, DOCX, PDF, PPT, PPTX, XLS and XLSX. This directory would act as a ransomware target directory and was placed on a previously prepared, isolated test machine, and a ransomware sample was executed in an ethical manner. Valid ransomware samples being sourced from VirusTotal~\cite{VirusTotal2019}. Once the ransomware execution had completed, the target files were examined to determine if they had been affected by the ransomware's execution. If they had, then, the affected files were checked for viruses and after confirming that they were safe, were placed in their own data subset within the ***NapierOne*** data set. Currently, data subsets of ransomware encrypted files have been created for the following ransomware strains: NotPetya; Sodinokibi; Maze; Phobos; Netwalker; Dharma; and Ryuk.
 
+
+    
+Again leveraging the sequence number, the target file and ransomware encrypted file can be connected. A graphical representation of the relationships between the documents data subsets and the file collection and file structure hierarchies is shown in Figure 4 and an overall view of the provenance of the individual data subsets is shown in Figure 5. 
+    
 ![File Collections](img/gov.png)
-    
-Again leveraging the sequence number, the target file and ransomware encrypted file can be connected. A graphical representation of the relationships between the documents data subsets and the file collection and file structure hierarchies is shown in Figure~\ref{fig:gov-doc-file-used} and an overall view of the provenance of the individual data subsets is shown in Figure~\ref{fig:data-set-sources}. 
-    
     
 # Documentation <a name="Documentation"></a>
 Documentation for this data set exists in three main areas
