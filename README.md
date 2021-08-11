@@ -20,10 +20,8 @@ An investigation was performed with the goal of determining the common files typ
 
 ## Data Sources<a name="DataSources"></a>
 ### File Selection<a name="FileSelection"></a>
-An important aspect of building a representative data set relates to file type usage and popularity. It is known that Google gathers statistics on file types while it performs its website indexing searches. However, the statistics are only gathered on a limited number of file types (https://
-support.google.com/webmasters/answer/35287?hl=en http://
-googlegsa.github.io/adaptor/index.html). 
-While it was not possible to discover a definitive ranked list of files types currently in use, it was decided to adopt a consensus approach. This involved querying various sources of possible usage information and gathering approximate lists of up to their Top 40 file types. These lists were then compared and aggregated with the lists gathered from other sources, resulting in a fair representation of what are currently popular file types are in use today. The list produced is not proposed as definitive but rather a best guess consensus.
+An important aspect of building a representative data set relates to file type usage and popularity. It is known that Google gathers statistics on file types while it performs its website indexing searches. However, the statistics are only gathered on a limited number of file types (https://support.google.com/webmasters/answer/35287?hl=en http://googlegsa.github.io/adaptor/index.html). 
+While it was not possible to discover a definitive ranked list of files types currently in use, it was decided to adopt a consensus approach. This involved querying various sources of possible usage information and gathering approximate lists of up to their Top 40 file types. These lists were then compared and aggregated with the lists gathered from other sources, resulting in what the authors believe to be a fair representation of what are currently popular file types are in use today. The list produced is not proposed as definitive but rather a best guess consensus.
 A list of the sources for file type usage information is discussed below. The alphabetical identification used for each data source is then repeated in the data set description shown in Table~\ref{tab:data-set-details}.
 
 ***A - VirusTotal*** Statistics taken from file submissions to this website~\cite{VirusTotal2019} during that past 12 months were recorded.
@@ -49,7 +47,7 @@ support.google.com/webmasters/answer/35287?hl=en), their justification for doing
 
 ***K - Govdocs1*** Inclusion of the file types in the original Govdocs1 data set (https://digitalcorpora.org/corpora/files) were also taken into consideration when deciding if they should appear in this data set. However, the actual files being sourced from elsewhere.
 
-The results for all the sources were then sorted by popularity and aggregated into a list of approximately 40 file types. To encourage consensus, the file types needed to appear in at least two lists before they were considered in the final results. The following list describes the file types that were identified as being popular using the infoirmation gathered from the sources above.
+The results for all the sources were then sorted by popularity and aggregated into a list of approximately 40 file types. To encourage consensus, the file types needed to appear in at least two lists before they were considered in the final results. The following list describes the file types that were identified as being popular using the information gathered from the sources above.
 
 
 | &nbsp; | &nbsp; | &nbsp; | &nbsp; | &nbsp; |
@@ -149,7 +147,7 @@ A full listing of the dataset structure can be found [Dataset Structure](./Datas
 Documentation for this data set exists in three main areas
 1. The github repository https://github.com/simonrdavies/NapierOne/blob/main/README.md
 2. The journal paper published in xxxxx
-3. Each data subset has associated with it, its own specific PDF documentation. This PDF is delivered together with the data subset. Contained within this document are specific details relating to that specific data subset. This includes a description of the data set, how the data within this specific data set was generated/gathered, contact information, license considerations and attibution information.
+3. Each data subset has associated with it, its own specific PDF documentation. This PDF is delivered together with the data subset. Contained within this document are specific details relating to that specific data subset. This includes a description of the data set, how the data within this specific data set was generated/gathered, contact information, license considerations and attribution information.
 
 
 
