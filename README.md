@@ -20,8 +20,11 @@ An investigation was performed with the goal of determining the common files typ
 
 ## Data Sources<a name="Contacts"></a>
 [Simon Davies        s.davies@napier.ac.uk](mailto:s.davies@napier.ac.uk)
+
 [Richard Macfarlane  R.Macfarlane@napier.ac.uk](mailto:R.Macfarlane@napier.ac.uk)
+
 [William J. Buchanan b.buchanan@napier.ac.uk](maiolto:b.buchanan@napier.ac.uk)
+
 ## Data Sources<a name="DataSources"></a>
 ### File Selection<a name="FileSelection"></a>
 An important aspect of building a representative data set relates to file type usage and popularity. It is known that Google gathers statistics on file types while it performs its website indexing searches. However, the statistics are only gathered on a limited number of file types (https://support.google.com/webmasters/answer/35287?hl=en http://googlegsa.github.io/adaptor/index.html). 
