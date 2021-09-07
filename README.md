@@ -30,11 +30,12 @@ An investigation was performed with the goal of determining the common files typ
 
 ## License and Attribution<a name="License"></a>
 This entire dataset is covered by the Edinburgh Napier University License Agreement, which is described in detail below. When any part of this dataset is used, then the following attribution should be given:
+
 ***add citation details to NapierOne paper ****
 
 In addition, each data subset has its own license and attribution requirements, which are described in each dataset description pdf, which accompanies each data subset.
 
-###Edinburgh Napier University License Agreement
+### Edinburgh Napier University License Agreement
 ENU License Copyright (c) 2021 Edinburgh Napier University
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the
 "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish,
