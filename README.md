@@ -3,20 +3,22 @@
 ![NapierOne Title](img/NapierOne-title.jpg)
 # Table of contents
 1. [Summary](#Summary)
-2. [Data Sources](#DataSources)
+2. [Contacts](#Contacts)
+3. [License and Attribution](#License)
+4. [Data Sources](#DataSources)
     1. [File Selection](#FileSelection)
     2. [File Sources](#FileSources)
-3. [Dataset Structure](#DatasetStructure)
+5. [Dataset Structure](#DatasetStructure)
     1. [File Name Convention](#FileNameConvention)
     2. [File Structure](#FileStructure)
     3. [File Collection](#FileCollection)
-5. [Documentation](#Documentation)
-6. [Tutorials](./tutorials.md)
+6. [Documentation](#Documentation)
+7. [Tutorials](./tutorials.md)
 
 ## Summary <a name="Summary"></a>
 A modern cybersecurity mixed file data set called ‘NapierOne’ is presented, primarily aimed at, but not limited to, ransomware detection and forensic analysis. NapierOne was designed to address the known deficiency in research reproducibility and improve consistency by facilitating research replication and repeatability. The methodology used in the creation of this data set is also described in detail. The data set was inspired by the Govdocs1 data set and it is intended that ‘NapierOne’ be used as a complement to this original data set.
 
-An investigation was performed with the goal of determining the common files types currently in use. No specific research was found that explicitly provided this information, so an alternative consensus approach was employed. This involved combining the findings from multiple sources of file type usage into an overall ranked list. After which 5,000 real-world example files were gathered, and a specific data subset created, for each of the common file types identified. In some circumstances, multiple data subsets were created for a specific file type, each subset representing a specific characteristic for that file type. For example, there are multiple data subsets for the ZIP file type with each subset containing examples of a specific compression method. Ransomware execution tends to produce files that have high entropy, so examples of file types that naturally have this attribute are also present. The resulting entire data set comprises of more than 90 separate data subsets divided between 44 distinct file types, resulting in over 450,000 unique files in total.
+An investigation was performed with the goal of determining the common files types currently in use. No specific research was found that explicitly provided this information, so an alternative consensus approach was employed. This involved combining the findings from multiple sources of file type usage into an overall ranked list. After which 5,000 real-world example files were gathered, and a specific data subset was created, for each of the common file types identified. In some circumstances, multiple data subsets were created for a specific file type, each subset representing a specific characteristic for that file type. For example, there are multiple data subsets for the ZIP file type with each subset containing examples of a specific compression method. Ransomware execution tends to produce files that have high entropy, so examples of file types that naturally have this attribute are also present. The resulting entire data set comprises of more than 90 separate data subsets divided between 44 distinct file types, resulting in over 450,000 unique files in total.
 
 ## Contacts<a name="Contacts"></a>
 [Simon Davies        s.davies@napier.ac.uk](mailto:s.davies@napier.ac.uk?cc=R.Macfarlane@napier.ac.uk;b.buchanan@napier.ac.uk&subject=NapierOne)
@@ -25,13 +27,35 @@ An investigation was performed with the goal of determining the common files typ
 
 [William J. Buchanan b.buchanan@napier.ac.uk](mailto:b.buchanan@napier.ac.uk?cc=R.Macfarlane@napier.ac.uk;s.davies@napier.ac.uk&subject=NapierOne)
 
+
+## License and Attribution<a name="License"></a>
+This entire dataset is covered by the Edinburgh Napier University License Agreement, which is described in detail below. When any part of this dataset is used, then the following attribution should be given:
+***add citation details to NapierOne paper ****
+
+In addition, each data subset has its own license and attribution requirements, which are described in each dataset description pdf, which accompanies each data subset.
+
+###Edinburgh Napier University License Agreement
+ENU License Copyright (c) 2021 Edinburgh Napier University
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the
+following conditions:
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT
+NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
+DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+
 ## Data Sources<a name="DataSources"></a>
 ### File Selection<a name="FileSelection"></a>
 An important aspect of building a representative data set relates to file type usage and popularity. It is known that Google gathers statistics on file types while it performs its website indexing searches. However, the statistics are only gathered on a limited number of file types (https://support.google.com/webmasters/answer/35287?hl=en http://googlegsa.github.io/adaptor/index.html). 
 While it was not possible to discover a definitive ranked list of files types currently in use, it was decided to adopt a consensus approach. This involved querying various sources of possible usage information and gathering approximate lists of up to their Top 40 file types. These lists were then compared and aggregated with the lists gathered from other sources, resulting in what the authors believe to be a fair representation of what are currently popular file types are in use today. The list produced is not proposed as definitive but rather a best guess consensus.
 A list of the sources for file type usage information is discussed below. The alphabetical identification used for each data source is then repeated in the data set description shown in Figure 3.
 
-***A - VirusTotal*** Statistics taken from file submissions to this website (https://www.virustotaL.com) during that past 12 months were recorded.
+***A - VirusTotal*** Statistics taken from file submissions to this website (https://www.virustotaL.com) during the past 12 months were recorded.
 
 ***B - W3Techs*** The website (http://w3techs.com/technologies/overview/) provides information about the usage of various types of technologies on the web. Statistics relating to the most popular images types were gathered from here.
 
@@ -73,7 +97,7 @@ The results for all the sources were then sorted by popularity and aggregated in
 
 ### File Sources <a name="FileSources"></a>
 The contents of the ***NapierOne*** new data set were generated in the following ways:
-- Examples of files using the most commonly used document types such as DOC, DOCX, PDF, PPT, PPTX, XLS, and XLS  were be gathered from the UK government domain, ***gov.uk***. Files collected from this domain are covered by the 'Open Government License agreement for Public Sector Information' (http://www.nationalarchives.gov.uk/doc/open-government-licence/
+- Examples of files using the most commonly used document types such as DOC, DOCX, PDF, PPT, PPTX, XLS, and XLS  were be gathered from the UK government domain, ***gov.uk***. Files collected from this domain are covered by the 'Open Government License agreement for Public Sector Information (http://www.nationalarchives.gov.uk/doc/open-government-licence/
 version/3). This agreement allows for the free distribution of the documents as long as they are accompanied by the correct attribution.
 - Image files in the TIF format were taken from the RAISE data set (https://doi.org/10.1145/2713168.2713194). This data set permits redistribution of its contents as long as it is accompanied by the correct attribution. Subsequent image file type data subsets, for example, BMP, EPS, GIF, ICO, JPG, PNG, SVG and WEBP were generated from this original TIF data set.
 - Archive data subsets were generated using files from the documents subset.
