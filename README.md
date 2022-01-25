@@ -184,8 +184,9 @@ A full listing of the dataset structure can be found [Dataset Structure](./Datas
 # Documentation <a name="Documentation"></a>
 Documentation for this data set exists in three main areas
 1. The github repository https://github.com/simonrdavies/NapierOne/blob/main/README.md
-2. The journal paper published in xxxxx
-3. Each data subset has associated with it, its own specific PDF documentation. This PDF is delivered together with the data subset. Contained within this document are specific details relating to that specific data subset. This includes a description of the data set, how the data within this specific data set was generated/gathered, contact information, license considerations and attribution information.
+2. The journal paper published in Forensic Science International: Digital Investigation https://doi.org/10.1016/j.fsidi.2021.301330
+3. The Amazon AWS dataset documentation can be found here https://registry.opendata.aws/napierone/ 
+4. Each data subset has associated with it, its own specific PDF documentation. This PDF is delivered together with the data subset. Contained within this document are specific details relating to that specific data subset. This includes a description of the data set, how the data within this specific data set was generated/gathered, contact information, license considerations and attribution information.
 
 
 
