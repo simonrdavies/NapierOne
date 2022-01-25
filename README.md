@@ -1,6 +1,6 @@
 # NapierOne: A Modern Mixed File Data Set
 
-![NapierOne Title](img/NapierOne-title.jpg)
+[![NapierOne Title](img/NapierOne-title.jpg)](http://www.napierone.com)
 # Table of contents
 1. [Summary](#Summary)
 2. [Contacts](#Contacts)
@@ -31,8 +31,23 @@ An investigation was performed with the goal of determining the common files typ
 ## License and Attribution<a name="License"></a>
 This entire dataset is covered by the Edinburgh Napier University License Agreement, which is described in detail below. When any part of this dataset is used, then the following attribution should be given:
 
-***add citation details to NapierOne paper ****
-
+### For example in BibTex format
+```
+BibTex
+@article{DAVIES2022301330,
+title = {NapierOne: A modern mixed file data set alternative to Govdocs1},
+journal = {Forensic Science International: Digital Investigation},
+volume = {40},
+pages = {301330},
+year = {2022},
+issn = {2666-2817},
+doi = {https://doi.org/10.1016/j.fsidi.2021.301330},
+url = {https://www.sciencedirect.com/science/article/pii/S2666281721002560},
+author = {Simon R. Davies and Richard Macfarlane and William J. Buchanan},
+keywords = {Corpus, Mixed file dataset, Govdocs1, Malware, Ransomware, Entropy, Forensics},
+abstract = {It was found when reviewing the ransomware detection research literature that almost no proposal provided enough detail on how the test data set was created, or sufficient description of its actual content, to allow it to be recreated by other researchers interested in reconstructing their environment and validating the research results. A modern cybersecurity mixed file data set called NapierOne is presented, primarily aimed at, but not limited to, ransomware detection and forensic analysis research. NapierOne was designed to address this deficiency in reproducibility and improve consistency by facilitating research replication and repeatability.}
+}
+````
 In addition, each data subset has its own license and attribution requirements, which are described in each dataset description pdf, which accompanies each data subset.
 
 ### Edinburgh Napier University License Agreement
