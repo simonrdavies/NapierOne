@@ -179,7 +179,7 @@ As mentioned above the directories that contain the actual files have been compr
 A full listing of the dataset structure can be found [Dataset Structure](./DatasetStructure.txt).   
 
 ## Access <a name="Access">
-    Need help from Amazon for this
+  The NapierOne data set can be accessed here http://www.napierone.com
     
 # Documentation <a name="Documentation"></a>
 Documentation for this data set exists in three main areas
